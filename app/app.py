@@ -23,6 +23,8 @@ def load(folder, name):
 search = load("01-search-ranking", "demo")
 agent = load("02-agent-decisions", "demo")
 s12 = load("03-system1-to-system2", "demo")
+judge_mod = load("04-response-judge", "demo")
+guard = load("05-hallucination-guard", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -93,6 +95,34 @@ def escalate(context, question, options, threshold):
                f"System 2 thought for {s2['seconds']:.1f} s ({s2['tokens']} tokens)"), s2["final"]
 
 
+# ---------------------------------------------------------------- response judge
+def judge_pair(prompt, a, b, threshold):
+    t = time.time()
+    p, _, _ = judge_mod.judge(prompt, a, b)
+    ms = 1000 * (time.time() - t)
+    probs = {"Response A is better": p, "Response B is better": 1 - p}
+    conf, win = max(p, 1 - p), ("A" if p > 0.5 else "B")
+    if conf >= threshold:
+        return probs, f"### System 1: Response **{win}** is better\nconfidence {conf:.2f} · {ms:.0f} ms for both A/B orders"
+    w, secs, tok = judge_mod.system2_judge(prompt, a, b)
+    return probs, (f"### System 1 unsure ({conf:.2f} < {threshold:.2f}) → System 2: Response **{w or '?'}** is better\n"
+                   f"System 1 {ms:.0f} ms · System 2 thought for {secs:.1f} s ({tok} tokens)")
+
+
+# ---------------------------------------------------------------- hallucination guard
+def guarded_answer(question, threshold):
+    t = time.time()
+    ans = guard.answer(question)
+    t_ans = time.time() - t
+    t = time.time()
+    p = guard.trust(question, ans)
+    ms = 1000 * (time.time() - t)
+    shown = ans if p >= threshold else "I'm not sure."
+    info = (f"System 2 answered **{ans}** in {t_ans:.1f} s · System 1 check: P(correct) = **{p:.2f}** in {ms:.0f} ms · "
+            + ("shown to the user" if p >= threshold else f"below {threshold:.2f}, so the assistant says it is not sure"))
+    return shown, {"answer is correct": p, "answer is wrong": 1 - p}, info
+
+
 with gr.Blocks(title="JEV-27B demo") as demo:
     gr.Markdown(INTRO)
     with gr.Tab("System 1 playground"):
@@ -152,6 +182,31 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 verdict = gr.Markdown()
                 s2txt = gr.Textbox(label="System 2 final answer text", lines=4)
         b.click(escalate, [ctx, qq, oo, th], [p1, verdict, s2txt])
+    with gr.Tab("Response judge"):
+        with gr.Row():
+            with gr.Column():
+                jp = gr.Textbox("What is the capital of Australia?", label="user request")
+                ja = gr.Textbox("The capital of Australia is Sydney, its largest and best-known city.", label="response A", lines=3)
+                jb = gr.Textbox("Canberra. Sydney is the largest city, but Canberra has been the capital since 1913.", label="response B", lines=3)
+                jt = gr.Slider(0.5, 0.99, value=0.8, step=0.01, label="ask System 2 to think when System 1 confidence is below")
+                b = gr.Button("Judge", variant="primary")
+            with gr.Column():
+                jprob = gr.Label(label="System 1 (both A/B orders averaged)")
+                jv = gr.Markdown()
+        b.click(judge_pair, [jp, ja, jb, jt], [jprob, jv])
+    with gr.Tab("Hallucination guard"):
+        with gr.Row():
+            with gr.Column():
+                hq = gr.Textbox("Which musical instrument can have 21, 22, or 23 strings?", label="question")
+                gr.Examples([["Which musical instrument can have 21, 22, or 23 strings?"], ["The Florentine Girdle was a type of what?"],
+                             ["In which year did Picasso die?"], ["Which car company manufactures the Corolla?"]], inputs=hq)
+                ht = gr.Slider(0.5, 0.99, value=0.9, step=0.01, label="answer only when System 1 trusts the answer at least")
+                b = gr.Button("Ask", variant="primary")
+            with gr.Column():
+                hshown = gr.Textbox(label="what the user sees")
+                hprob = gr.Label(label="System 1 check")
+                hinfo = gr.Markdown()
+        b.click(guarded_answer, [hq, ht], [hshown, hprob, hinfo])
 
 if __name__ == "__main__":
     demo.queue(default_concurrency_limit=16).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))

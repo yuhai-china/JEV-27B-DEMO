@@ -17,11 +17,17 @@ This repository shows what that is good for, with real data and measured results
 | [01](01-search-ranking) | **Search re-ranking** | nDCG@10 on TREC-COVID **0.858** vs 0.793 for bge-reranker-v2-m3 and 0.623 for BM25 |
 | [02](02-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
 | [03](03-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
+| [04](04-response-judge) | **Response judge** / reward model | RewardBench **89.9** in one forward pass, ahead of GPT-4o (86.7), Gemini 1.5 Pro (88.2), Claude 3.5 Sonnet (84.2) as judges |
+| [05](05-hallucination-guard) | **Hallucination guard** | answer only the half System 1 trusts: accuracy **71% → 96%** (System 2's own confidence: 87%) |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
 
 ![system1 to system2](assets/system1_to_system2.png)
+
+![judge](assets/judge_rewardbench.png)
+
+![guard](assets/hallucination_guard.png)
 
 ## Quick start
 
@@ -72,8 +78,9 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 |---|---|
 | ![playground](assets/app_playground.png) | ![search](assets/app_search.png) |
 | ![escalation](assets/app_system1_to_2.png) | ![phishing](assets/agent_phishing.png) |
+| ![judge](assets/app_judge.png) | ![guard](assets/app_guard.png) |
 
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT).
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0).
