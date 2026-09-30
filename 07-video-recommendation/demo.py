@@ -1,4 +1,4 @@
-"""Demo 07 — zero-shot image recommendation: JEV-27B looks at video covers.
+"""Demo 07 — zero-shot short-video recommendation (TikTok-style feeds): JEV-27B looks at the video covers.
 
 JEV-27B has never been trained on MicroLens, on recommendation, or on any click data. System 1 looks at the covers of the
 last 5 videos a user watched and at one candidate cover, and returns P(this user clicks it) in one forward pass.
@@ -187,7 +187,7 @@ def summary():
     ax.text(2.5, 0.765, "zero-shot: no interaction data", ha="center", fontsize=9, color="#495057")
     ax.text(6, 0.765, "reference", ha="center", fontsize=9, color="#495057")
     ax.set_ylim(0.45, 0.79); ax.set_ylabel("AUC (per user)"); ax.tick_params(axis="x", labelsize=8)
-    ax.set_title("Zero-shot image recommendation: JEV-27B looking at covers matches collaborative filtering")
+    ax.set_title("Zero-shot short-video recommendation: JEV-27B looking at covers matches collaborative filtering")
     fig.tight_layout(); fig.savefig(os.path.join(HERE, "..", "assets", "image_recommendation.png")); plt.close(fig)
 
 

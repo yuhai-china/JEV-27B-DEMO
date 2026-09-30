@@ -20,7 +20,7 @@ This repository shows what that is good for, with real data and measured results
 | [04](04-response-judge) | **Response judge** / reward model | RewardBench **89.9** in one forward pass, ahead of GPT-4o (86.7), Gemini 1.5 Pro (88.2), Claude 3.5 Sonnet (84.2) as judges |
 | [05](05-hallucination-guard) | **Hallucination guard** | answer only the half System 1 trusts: accuracy **71% → 96%** (System 2's own confidence: 87%) |
 | [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
-| [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
+| [07](07-video-recommendation) | **Short-video recommendation, zero-shot** (TikTok-style feeds) | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
 | [08](08-biomedical-qa) | **Biomedical research questions** (PubMedQA) | **77.8%**, level with human experts (78.0%), zero-shot in one forward pass; above GPT-4's zero-shot 75.2% |
 | [09](09-multimodal-judge) | **Multimodal judge** | **78.3%** on VL-RewardBench, above every model on its 2025 leaderboard; on the 2026 MMRB2, text-to-image 69.2 (GPT-5 70.5), average at GPT-4.1 level |
 | [10](10-agent-judge) | **Agent judge** | Plan-RewardBench (ACL 2026): **73.2%**, top of the table, ahead of GPT-5 (68.5) and Gemini-3-Flash (69.1); AgentRewardBench: higher precision than every leaderboard judge at its recall |

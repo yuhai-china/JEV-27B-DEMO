@@ -14,7 +14,7 @@ recommender built from tens of thousands of users' behaviour.
 * **A strong multimodal judge:** shown an image, a question and two answers, it picks the better answer **78.3%** of the
   time on VL-RewardBench, above every model on its leaderboard, including the purpose-trained Skywork-VL-Reward-7B (73.3%)
   and GPT-4o (65.8%). On the newer Multimodal RewardBench 2 it judges text-to-image results within 1.3 points of GPT-5.
-* **Zero-shot image recommendation:** looking only at video covers, JEV-27B-VL ranks what a user will watch next as well as
+* **Zero-shot short-video recommendation (TikTok-style feeds):** looking only at video covers, JEV-27B-VL ranks what a user will watch next as well as
   collaborative filtering learned from **59,045 users' watch histories** (AUC 0.727 vs 0.728), with a higher top-5 hit rate
   (59% vs 49%), and without any interaction data.
 * **Pictures beat words:** covers alone score far better than titles alone (AUC 0.727 vs 0.649).
@@ -63,14 +63,16 @@ averages 63.8%, at the level of GPT-4.1; GPT-5 and Gemini 3 Pro remain ahead.
 
 ![MMRB2](https://huggingface.co/autotrust/JEV-27B-VL/resolve/main/multimodal_judge_mmrb2.png)
 
-## It sees: zero-shot image recommendation
+## It sees: zero-shot short-video recommendation
+
+A TikTok-style feed has to decide, for every user and every new clip, whether to show it, often before anyone has watched it.
 
 We tested it on [MicroLens](https://github.com/westlake-repl/MicroLens), a public dataset of real users of a short-video app
 with the original cover images. For each of 200 users we hid the video they actually watched next among 19 videos other people
 were watching at the same time, which is what a feed would have shown. JEV-27B-VL looked at the covers of the last five videos
 the user watched and at each candidate cover, and ranked the 20 candidates.
 
-![Zero-shot image recommendation on MicroLens](https://huggingface.co/autotrust/JEV-27B-VL/resolve/main/blog/image_recommendation.png)
+![Zero-shot short-video recommendation on MicroLens](https://huggingface.co/autotrust/JEV-27B-VL/resolve/main/blog/image_recommendation.png)
 
 | method | uses interaction data? | AUC | hit in top 5 |
 |---|---|---:|---:|
@@ -136,7 +138,7 @@ bash JEV-27B-VL/serve.sh        # vLLM, one GPU with 80 GB or more
 ```
 
 The [model card](https://huggingface.co/autotrust/JEV-27B-VL) has copy-paste code for image decisions and image chat. All the
-experiments above, with code and an interactive web app (image recommendation, news recommendation, judge, hallucination
+experiments above, with code and an interactive web app (short-video recommendation, news recommendation, judge, hallucination
 guard and more), are in **[JEV-27B-DEMO](https://github.com/yuhai-china/JEV-27B-DEMO)**.
 
 Image decisions are zero-shot, and the recommendation result above comes from one dataset of 200 users. We would love to hear

@@ -26,7 +26,7 @@ s12 = load("03-system1-to-system2", "demo")
 judge_mod = load("04-response-judge", "demo")
 guard = load("05-hallucination-guard", "demo")
 newsrec = load("06-news-recommendation", "demo")
-imgrec = load("07-image-recommendation", "demo")
+imgrec = load("07-video-recommendation", "demo")
 bioqa = load("08-biomedical-qa", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
@@ -159,9 +159,9 @@ def recommend(choice):
 
 
 
-# ---------------------------------------------------------------- zero-shot image recommendation
+# ---------------------------------------------------------------- zero-shot short-video recommendation
 def image_users():
-    res = pd.DataFrame(json.load(open(os.path.join(ROOT, "07-image-recommendation", "results.json"))))
+    res = pd.DataFrame(json.load(open(os.path.join(ROOT, "07-video-recommendation", "results.json"))))
     best = {u: int((g.jev_images > g[g.y == 1].jev_images.iloc[0]).sum()) + 1 for u, g in res.groupby("user")}
     return [f"user {u}" for u, r in sorted(best.items(), key=lambda kv: (kv[1], kv[0]))[:12]]
 
@@ -300,8 +300,8 @@ with gr.Blocks(title="JEV-27B demo") as demo:
             nt = gr.Dataframe(wrap=True, column_widths=["5%", "10%", "9%", "22%", "54%"])
         b.click(recommend, nc, [nh, nt, ninfo])
         demo.load(lambda: gr.update(choices=list(mind()["choices"]), value=list(mind()["choices"])[0]), None, nc)
-    with gr.Tab("Image rec (zero-shot)"):
-        gr.Markdown("Real users of a short-video app (MicroLens). JEV-27B looks at the covers of the last 5 videos a user watched and ranks "
+    with gr.Tab("Video rec (zero-shot)"):
+        gr.Markdown("Short-video feed, TikTok style: real users of a short-video app (MicroLens). JEV-27B looks at the covers of the last 5 videos a user watched and ranks "
                     "20 candidate covers. **Zero-shot and image-only: no training on this data, no titles, no interaction logs.** "
                     "Needs the multimodal server (common/serve_jev27b_mm.sh).")
         ic = gr.Dropdown(label="user", choices=[], allow_custom_value=False)

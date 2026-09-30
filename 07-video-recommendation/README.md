@@ -1,9 +1,9 @@
-# 07 · Zero-shot image recommendation: JEV-27B looks at the covers
+# 07 · Zero-shot short-video recommendation: JEV-27B looks at the covers
 
 > **Zero-shot and multimodal.** JEV-27B has never been trained on MicroLens, on recommendation, or on any click data, and its
 > decision head was trained on text only. It looks at the cover images of the videos a user watched, and at a candidate cover.
 
-**Idea.** System 1 sees the covers of the last 5 videos a user watched plus one candidate cover, and returns **P(this user
+**Idea.** A TikTok-style short-video feed has to decide, for every user and every new clip, whether to show it. System 1 sees the covers of the last 5 videos a user watched plus one candidate cover, and returns **P(this user
 clicks it)** in one forward pass. No interaction logs, no item embeddings, no training. A new video can be recommended from its
 cover alone, before anybody has watched it.
 
@@ -11,7 +11,7 @@ cover alone, before anybody has watched it.
 For 200 random users, the last video they watched is hidden among 19 videos that other users watched within ±3 days (what a
 feed would be showing at the time). Every method ranks the 20 candidates.
 
-![image recommendation](../assets/image_recommendation.png)
+![short-video recommendation](../assets/image_recommendation.png)
 
 ## JEV looking at covers matches collaborative filtering, with zero interaction data
 
@@ -28,7 +28,8 @@ feed would be showing at the time). Every method ranks the 20 candidates.
 * **Looking beats reading.** Covers alone lift AUC from 0.649 (titles) to **0.727** (+0.078, 95% interval +0.031 to +0.126).
 * **Zero-shot equals collaborative filtering.** Same AUC as item-based CF learned from 59,045 other users' watch histories
   (difference 0.000, interval −0.041 to +0.040), and a higher hit rate in the top 5 (0.59 vs 0.49).
-* **Works for brand-new videos.** Collaborative filtering needs co-watch history; JEV only needs the cover.
+* **Solves cold start.** Collaborative filtering needs co-watch history; JEV only needs the cover, so new videos and new creators can be
+  recommended the moment they are uploaded.
 
 ## How it asks
 
@@ -55,7 +56,7 @@ python demo.py                     # downloads MicroLens-100k (~700 MB) and runs
 python demo.py summary             # tables and chart from results.json
 ```
 
-The web app has an **Image recommendation (zero-shot)** tab: pick a user, see the covers they watched, and watch JEV rank 20
+The web app has a **Video rec (zero-shot)** tab: pick a user, see the covers they watched, and watch JEV rank 20
 candidate covers, with the one they actually clicked marked.
 
 **Data licence:** MicroLens is provided by Westlake University for research. It is downloaded from the official site at run
