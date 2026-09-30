@@ -26,6 +26,7 @@ s12 = load("03-system1-to-system2", "demo")
 judge_mod = load("04-response-judge", "demo")
 guard = load("05-hallucination-guard", "demo")
 newsrec = load("06-news-recommendation", "demo")
+imgrec = load("07-image-recommendation", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -156,9 +157,27 @@ def recommend(choice):
     return "\n".join(f"- {h}" for h in history), df, info
 
 
+
+# ---------------------------------------------------------------- zero-shot image recommendation
+def image_users():
+    res = pd.DataFrame(json.load(open(os.path.join(ROOT, "07-image-recommendation", "results.json"))))
+    best = {u: int((g.jev_images > g[g.y == 1].jev_images.iloc[0]).sum()) + 1 for u, g in res.groupby("user")}
+    return [f"user {u}" for u, r in sorted(best.items(), key=lambda kv: (kv[1], kv[0]))[:12]]
+
+
+def recommend_images(choice):
+    hist, ranked, clicked, secs = imgrec.rank_user(int(choice.split()[1]))
+    tt = imgrec.titles()
+    rank = [i for i, (_, it) in enumerate(ranked) if it == clicked][0] + 1
+    return ([(imgrec.cover(h), f"watched {k + 1}") for k, h in enumerate(hist)],
+            [(imgrec.cover(it), f"#{i + 1} · P(click) {p:.2f}" + (" · ✅ clicked" if it == clicked else "")) for i, (p, it) in enumerate(ranked)],
+            f"**20 covers scored in {secs:.1f} s, zero-shot, from the images alone** (no titles, no interaction data). "
+            f"The video this user actually watched next landed at rank **{rank}** of 20.")
+
+
 with gr.Blocks(title="JEV-27B demo") as demo:
     gr.Markdown(INTRO)
-    with gr.Tab("System 1 playground"):
+    with gr.Tab("Playground"):
         with gr.Row():
             with gr.Column():
                 kind = gr.Radio(["choice", "noul", "score"], value="choice", label="kind (choice = pick one · noul = true/false · score = rate 0-5)")
@@ -171,7 +190,7 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 probs = gr.Label(label="probabilities", num_top_classes=16)
                 info = gr.Markdown()
         go.click(playground, [kind, state, question, options], [probs, info])
-    with gr.Tab("Search re-ranking"):
+    with gr.Tab("Search"):
         q = gr.Dropdown(list(QUERIES), value=list(QUERIES)[0], label="TREC-COVID query (BM25 top-20 candidates, human relevance labels)")
         b = gr.Button("Re-rank with JEV-27B", variant="primary")
         m1 = gr.Markdown()
@@ -179,7 +198,7 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                     "label = human judgement (0 not relevant, 1 partially, 2 relevant)*")
         t1 = gr.Dataframe(wrap=True, column_widths=["6%", "7%", "8%", "7%", "6%", "66%"])
         b.click(rerank, q, [t1, m1])
-    with gr.Tab("Agent decisions"):
+    with gr.Tab("Agent"):
         with gr.Row():
             with gr.Column():
                 tick = gr.Textbox(label="support ticket", lines=3, value=agent.TICKETS[3])
@@ -202,7 +221,7 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 b = gr.Button("Route", variant="primary")
             rt = gr.Label(label="call first")
         b.click(route, [req, tls], rt)
-    with gr.Tab("System 1 → System 2"):
+    with gr.Tab("System 1 → 2"):
         with gr.Row():
             with gr.Column():
                 ctx = gr.Textbox("Today is Tuesday, 29 September 2026.", label="context")
@@ -215,7 +234,7 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 verdict = gr.Markdown()
                 s2txt = gr.Textbox(label="System 2 final answer text", lines=4)
         b.click(escalate, [ctx, qq, oo, th], [p1, verdict, s2txt])
-    with gr.Tab("Response judge"):
+    with gr.Tab("Judge"):
         with gr.Row():
             with gr.Column():
                 jp = gr.Textbox("What is the capital of Australia?", label="user request")
@@ -240,7 +259,7 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 hprob = gr.Label(label="System 1 check")
                 hinfo = gr.Markdown()
         b.click(guarded_answer, [hq, ht], [hshown, hprob, hinfo])
-    with gr.Tab("News recommendation (zero-shot)"):
+    with gr.Tab("News rec (zero-shot)"):
         gr.Markdown("Real users from the Microsoft News Dataset (MIND), 15 Nov 2019. JEV-27B reads the headlines a user clicked recently and "
                     "scores every article shown to them. **Zero-shot: no training on MIND, no click data.**")
         nc = gr.Dropdown(label="user impression", choices=[], allow_custom_value=False)
@@ -251,6 +270,18 @@ with gr.Blocks(title="JEV-27B demo") as demo:
             nt = gr.Dataframe(wrap=True, column_widths=["5%", "10%", "9%", "22%", "54%"])
         b.click(recommend, nc, [nh, nt, ninfo])
         demo.load(lambda: gr.update(choices=list(mind()["choices"]), value=list(mind()["choices"])[0]), None, nc)
+    with gr.Tab("Image rec (zero-shot)"):
+        gr.Markdown("Real users of a short-video app (MicroLens). JEV-27B looks at the covers of the last 5 videos a user watched and ranks "
+                    "20 candidate covers. **Zero-shot and image-only: no training on this data, no titles, no interaction logs.** "
+                    "Needs the multimodal server (common/serve_jev27b_mm.sh).")
+        ic = gr.Dropdown(label="user", choices=[], allow_custom_value=False)
+        b = gr.Button("Recommend", variant="primary")
+        iinfo = gr.Markdown()
+        ih = gr.Gallery(label="covers this user watched most recently", columns=5, height=180, object_fit="contain")
+        ir = gr.Gallery(label="candidates ranked by JEV", columns=5, height=620, object_fit="contain")
+        b.click(recommend_images, ic, [ih, ir, iinfo])
+        demo.load(lambda: gr.update(choices=image_users(), value=image_users()[0]), None, ic)
 
 if __name__ == "__main__":
-    demo.queue(default_concurrency_limit=16).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))
+    demo.queue(default_concurrency_limit=16).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)),
+                                                   allowed_paths=[imgrec.DATA])

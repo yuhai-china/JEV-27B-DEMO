@@ -80,6 +80,49 @@ def decide(kind: str, state, question: str, options: list[str] | None = None) ->
     return (_decide_hosted if BACKEND == "decide" else _decide_vllm)(kind, state, question, options)
 
 
+# Raw template: renders the decision prompt verbatim, with each image as a vision placeholder at its position.
+_RAW_MM_TEMPLATE = ("{%- for m in messages -%}{%- if m['content'] is string -%}{{ m['content'] }}{%- else -%}{%- for c in m['content'] -%}"
+                    "{%- if c['type'] == 'text' -%}{{ c['text'] }}{%- else -%}<|vision_start|><|image_pad|><|vision_end|>{%- endif -%}"
+                    "{%- endfor -%}{%- endif -%}{%- endfor -%}")
+
+
+def _image_part(img) -> dict:
+    """img: http(s) URL, data URL, or a local file path."""
+    if isinstance(img, str) and img.startswith(("http://", "https://", "data:")):
+        url = img
+    else:
+        import base64, mimetypes
+        mime = mimetypes.guess_type(str(img))[0] or "image/jpeg"
+        url = f"data:{mime};base64," + base64.b64encode(open(img, "rb").read()).decode()
+    return {"type": "image_url", "image_url": {"url": url}}
+
+
+def decide_mm(kind: str, state_parts: list, question: str, options: list[str] | None = None) -> dict[str, float]:
+    """System 1 with images (needs the multimodal server, see common/serve_jev27b_mm.sh).
+    state_parts: list of str and {"image": url_or_path} items, rendered in order inside [state]."""
+    if BACKEND == "decide":
+        raise NotImplementedError("image decisions need the self-hosted multimodal vLLM server")
+    dh, temps = _bundle()
+    options = {"noul": ["false", "true"], "score": SCORE}.get(kind, options)
+    lines = options if kind != "choice" else [f"{LETTERS[i]}) {o}" for i, o in enumerate(options)]
+    content = [{"type": "text", "text": f"[kind] {kind}\n[state] "}]
+    for p in state_parts:
+        content.append(_image_part(p["image"]) if isinstance(p, dict) and "image" in p else {"type": "text", "text": as_text(p)})
+    content.append({"type": "text", "text": f"\n[question] {question}\n[options]\n" + "\n".join(lines) + "\n[decision]:"})
+    s = dh["slots"]["ranges"][kind][0]
+    ids = dh["verbalizer_ids"][s: s + len(options)]
+    r = _http.post(f"{URL}/v1/chat/completions", json={
+        "model": "jev-decision", "messages": [{"role": "user", "content": content}], "chat_template": _RAW_MM_TEMPLATE,
+        "add_generation_prompt": False, "add_special_tokens": False, "max_tokens": 1, "temperature": 1.0,
+        "logprobs": True, "top_logprobs": len(options), "allowed_token_ids": ids, "return_tokens_as_token_ids": True}, timeout=300)
+    r.raise_for_status()
+    top = r.json()["choices"][0]["logprobs"]["content"][0]["top_logprobs"]
+    lp = {int(t["token"].split(":")[1]): t["logprob"] for t in top}
+    z = [(lp.get(t, -1e9) + dh["bias"][s + i]) / temps[kind] for i, t in enumerate(ids)]
+    e = [math.exp(x - max(z)) for x in z]
+    return {o: x / sum(e) for o, x in zip(options, e)}
+
+
 def decide_many(reqs: list[tuple], workers: int = 32) -> list[dict[str, float]]:
     """reqs = [(kind, state, question[, options]), ...] — sent concurrently; the server batches them on the GPU."""
     with cf.ThreadPoolExecutor(workers) as ex:

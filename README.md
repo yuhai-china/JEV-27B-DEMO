@@ -20,6 +20,7 @@ This repository shows what that is good for, with real data and measured results
 | [04](04-response-judge) | **Response judge** / reward model | RewardBench **89.9** in one forward pass, ahead of GPT-4o (86.7), Gemini 1.5 Pro (88.2), Claude 3.5 Sonnet (84.2) as judges |
 | [05](05-hallucination-guard) | **Hallucination guard** | answer only the half System 1 trusts: accuracy **71% → 96%** (System 2's own confidence: 87%) |
 | [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
+| [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -31,6 +32,8 @@ This repository shows what that is good for, with real data and measured results
 ![guard](assets/hallucination_guard.png)
 
 ![news](assets/news_recommendation.png)
+
+![images](assets/image_recommendation.png)
 
 ## Quick start
 
@@ -46,6 +49,9 @@ python app/app.py                          # web app on http://localhost:7860
 ```
 
 Set `JEV_URL` if the server is not on `localhost:8000`.
+
+**Image input** (demo 07): `bash common/serve_jev27b_mm.sh` serves the multimodal Qwen3.8-27B base (identical language weights) with the
+JEV adapter, so both systems also accept images. It runs every other demo too.
 
 **Using a hosted JEV API instead of your own GPU:** set the URL and key, then run any demo or the app unchanged.
 
@@ -67,6 +73,8 @@ decide("choice", state, "Which team should handle this ticket?", ["billing", "mo
 decide("noul", state, "Is this scenario one where: a human must respond personally?")    # -> {'false': .., 'true': ..}
 decide("score", state, "Rate how urgent this ticket is on a 0-5 scale.")                 # -> {'0': .., ..., '5': ..}
 decide_many([(kind, state, question, options), ...])      # concurrent; vLLM batches them on the GPU
+decide_mm("noul", ["Covers the user watched:", {"image": "a.jpg"}, "Candidate:", {"image": "b.jpg"}],
+          "Is this scenario one where: this user clicks on the candidate video?")        # images (multimodal server)
 
 reasoning, answer = split_thinking(chat(prompt, thinking=True))                          # System 2
 ```
@@ -82,9 +90,9 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 | ![playground](assets/app_playground.png) | ![search](assets/app_search.png) |
 | ![escalation](assets/app_system1_to_2.png) | ![phishing](assets/agent_phishing.png) |
 | ![judge](assets/app_judge.png) | ![guard](assets/app_guard.png) |
-| ![news](assets/app_news.png) | |
+| ![news](assets/app_news.png) | ![images](assets/app_images.png) |
 
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), MIND (Microsoft Research License Terms, downloaded at run time, not redistributed).
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.
