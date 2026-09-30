@@ -23,7 +23,7 @@ This repository shows what that is good for, with real data and measured results
 | [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
 | [08](08-biomedical-qa) | **Biomedical research questions** (PubMedQA) | **77.8%**, level with human experts (78.0%), zero-shot in one forward pass; above GPT-4's zero-shot 75.2% |
 | [09](09-multimodal-judge) | **Multimodal judge** | **78.3%** on VL-RewardBench, above every model on its 2025 leaderboard; on the 2026 MMRB2, text-to-image 69.2 (GPT-5 70.5), average at GPT-4.1 level |
-| [10](10-agent-judge) | **Agent judge**: did the web agent finish the task? (AgentRewardBench) | higher precision than **every judge on the leaderboard** at its own recall, incl. o4-mini, GPT-4o, Claude 3.7 and trained judges; AUROC 0.91 |
+| [10](10-agent-judge) | **Agent judge** | Plan-RewardBench (ACL 2026): **73.2%**, top of the table, ahead of GPT-5 (68.5) and Gemini-3-Flash (69.1); AgentRewardBench: higher precision than every leaderboard judge at its recall |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -43,6 +43,8 @@ This repository shows what that is good for, with real data and measured results
 ![multimodal judge](assets/multimodal_judge.png)
 
 ![MMRB2](assets/multimodal_judge_mmrb2.png)
+
+![Plan-RewardBench](assets/agent_judge_planrb.png)
 
 ![agent judge](assets/agent_judge.png)
 
@@ -107,4 +109,4 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), PubMedQA (MIT), VL-RewardBench (research use, downloaded at run time), AgentRewardBench (downloaded at run time), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), PubMedQA (MIT), VL-RewardBench (research use, downloaded at run time), AgentRewardBench and Plan-RewardBench (CC BY 4.0) (downloaded at run time), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.
