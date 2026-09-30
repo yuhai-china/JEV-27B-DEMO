@@ -45,12 +45,12 @@ decide_mm("noul", parts, "Is this scenario one where: this user clicks on the ca
 
 ## Running it
 
-Image input needs the multimodal server: `autotrust/JEV-27B` ships the text-only model, whose language weights are identical to
-`Qwen/Qwen3.8-27B`. `common/serve_jev27b_mm.sh` serves the multimodal base with the JEV adapter moved onto its language model
-(`common/make_mm_adapter.py`). Text decisions on this server match the text-only server.
+Image input needs [**autotrust/JEV-27B-VL**](https://huggingface.co/autotrust/JEV-27B-VL), JEV-27B with vision: the multimodal
+Qwen3.8-27B (identical language weights) with the JEV adapter and decision head. `common/serve_jev27b_mm.sh` downloads and
+serves it. Text decisions on this server match the text-only JEV-27B.
 
 ```bash
-bash common/serve_jev27b_mm.sh     # multimodal server on :8000 (System 1 + System 2, text and images)
+bash common/serve_jev27b_mm.sh     # autotrust/JEV-27B-VL on :8000 (System 1 + System 2, text and images)
 python demo.py                     # downloads MicroLens-100k (~700 MB) and runs everything
 python demo.py summary             # tables and chart from results.json
 ```

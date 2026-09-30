@@ -50,8 +50,8 @@ python app/app.py                          # web app on http://localhost:7860
 
 Set `JEV_URL` if the server is not on `localhost:8000`.
 
-**Image input** (demo 07): `bash common/serve_jev27b_mm.sh` serves the multimodal Qwen3.8-27B base (identical language weights) with the
-JEV adapter, so both systems also accept images. It runs every other demo too.
+**Image input** (demo 07): [**autotrust/JEV-27B-VL**](https://huggingface.co/autotrust/JEV-27B-VL) is JEV-27B with vision.
+`bash common/serve_jev27b_mm.sh` serves it, so both systems also accept images. It runs every other demo too.
 
 **Using a hosted JEV API instead of your own GPU:** set the URL and key, then run any demo or the app unchanged.
 
