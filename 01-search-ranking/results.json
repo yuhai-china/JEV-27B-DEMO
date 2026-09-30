@@ -1,0 +1,362 @@
+[
+ {
+  "query": "what is the origin of COVID-19",
+  "ndcg10_bm25": 0.15744006533381547,
+  "ndcg10_jev": 0.40634839235641007,
+  "seconds": 0.9064488410949707,
+  "bm25_top5": [
+   {
+    "text": "[What is the origin of SARS-CoV-2?]. Every time a pandemic occurs, dozens of theories emerge to attribute the origin of the event to different facts. The COVID-19 pandemic that has hit virtually all the globe has been no exception. What is known so far about the origin of the virus that causes COVID 19? The first investigations on the origin of this disease have determined that it is a new type of virus, the origin of which is most likely zoonotic.",
+    "label": 1
+   },
+   {
+    "text": "Anesthesia and COVID-19: What We Should Know and What We Should Do. Coronavirus disease 2019 (COVID-19), caused by Severe Acute Respiratory Syndrome-Coronavirus-2 (SARS-CoV-2), was first reported in Wuhan, Hubei, China, and has spread to more than 200 other countries around the world. COVID-19 is a highly contagious disease with continuous human-to-human transmission. The origin of the virus is unknown. Airway manipulations and intubations, which are common during anesthesia procedures may increasingly expose anesthesia providers and intensive care unit team members to SARS-CoV-2. Through a comprehensive review of existing studies on COVID-19, this article presents the epidemiological and clinical characteristics of COVID-19, reviews current medical management, and suggests ways to improve the safety of anesthetic procedures. Owing to the highly contagious nature of the virus and the lack of therapeutic drugs or vaccines, precautions should be taken to prevent medical staff from COVID-19.",
+    "label": 0
+   },
+   {
+    "text": "Anesthesia and COVID-19: What We Should Know and What We Should Do.. Coronavirus disease 2019 (COVID-19), caused by Severe Acute Respiratory Syndrome-Coronavirus-2 (SARS-CoV-2), was first reported in Wuhan, Hubei, China, and has spread to more than 200 other countries around the world. COVID-19 is a highly contagious disease with continuous human-to-human transmission. The origin of the virus is unknown. Airway manipulations and intubations, which are common during anesthesia procedures may increasingly expose anesthesia providers and intensive care unit team members to SARS-CoV-2. Through a comprehensive review of existing studies on COVID-19, this article presents the epidemiological and clinical characteristics of COVID-19, reviews current medical management, and suggests ways to improve the safety of anesthetic procedures. Owing to the highly contagious nature of the virus and the lack of therapeutic drugs or vaccines, precautions should be taken to prevent medical staff from COVID-19.",
+    "label": 0
+   },
+   {
+    "text": "Understanding Coronavirus. Since the identification of the first cases of the coronavirus in December 2019 in Wuhan, China, there has been a significant amount of confusion regarding the origin and spread of the so-called 'coronavirus', officially named SARS-CoV-2, and the cause of the disease COVID-19 Conflicting messages from the media and officials across different countries and organizations, the abundance of disparate sources of information, unfounded conspiracy theories on the origins of the newly emerging virus and the inconsistent public health measures across different countries, have all served to increase the level of anxiety in the population Where did the virus come from? How is it transmitted? How does it cause disease? Is it like flu? What is a pandemic? What can we do to stop its spread? Written by a leading expert, this concise and accessible introduction provides answers to the most common questions surrounding coronavirus for a general audience",
+    "label": 1
+   },
+   {
+    "text": "The COVID‐19 epidemic of manuscripts. In the midst of the novel coronavirus pandemic—referred to as COVID‐19—there has been much uncertainty. We remain uncertain about its precise origin, its structure and composition, how best to test for it, or for resulting immunity, whether or not exposure leads to immunity, whether or not disposable surgical masks are effective, why men and some ethnic minorities are more susceptible and just exactly what the death rate as a result of this virus is. However, one thing is absolutely clear, there has been an epidemic of manuscripts on the subject of COVID‐19 to nursing journals and, amongst these new manuscripts the rejection rate is, unfortunately, very high.",
+    "label": 0
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "[What is the origin of SARS-CoV-2?]. Every time a pandemic occurs, dozens of theories emerge to attribute the origin of the event to different facts. The COVID-19 pandemic that has hit virtually all the globe has been no exception. What is known so far about the origin of the virus that causes COVID 19? The first investigations on the origin of this disease have determined that it is a new type of virus, the origin of which is most likely zoonotic.",
+    "label": 1,
+    "p_relevant": 0.9998741425141947,
+    "rating": 4.572050567126957
+   },
+   {
+    "text": "A Genomic Perspective on the Origin and Emergence of SARS-CoV-2. The ongoing pandemic of a new human coronavirus, SARS-CoV-2, has generated enormous global concern. We and others in China were involved in the initial genome sequencing of the virus. Herein, we describe what genomic data reveal about the emergence SARS-CoV-2 and discuss the gaps in our understanding of its origins.",
+    "label": 2,
+    "p_relevant": 0.999619289716798,
+    "rating": 4.428233650502532
+   },
+   {
+    "text": "Covid‐19 and neurodegeneration. What can we learn from the past?. Coronaviridae (CoVs) are single stranded RNA viruses. βeta‐CoVs encompasses Bat coronavirus (BCoV), the human Severe Acute Respiratory Syndrome (SARS) virus and the Middle Eastern Respiratory Syndrome (MERS) virus. In December 2019, a new βeta‐CoVs was identified in Wuhan, China, SARS‐CoV‐2. The genome sequencing demonstrated a 79.5% and 96.2% identity to SARS‐CoV and a bat CoV genome, respectively, supporting the interspecies transmission and the origin of this new pandemia.",
+    "label": 2,
+    "p_relevant": 0.9963058171850697,
+    "rating": 3.4641370560672495
+   },
+   {
+    "text": "Understanding Coronavirus. Since the identification of the first cases of the coronavirus in December 2019 in Wuhan, China, there has been a significant amount of confusion regarding the origin and spread of the so-called 'coronavirus', officially named SARS-CoV-2, and the cause of the disease COVID-19 Conflicting messages from the media and officials across different countries and organizations, the abundance of disparate sources of information, unfounded conspiracy theories on the origins of the newly emerging virus and the inconsistent public health measures across different countries, have all served to increase the level of anxiety in the population Where did the virus come from? How is it transmitted? How does it cause disease? Is it like flu? What is a pandemic? What can we do to stop its spread? Written by a leading expert, this concise and accessible introduction provides answers to the most common questions surrounding coronavirus for a general audience",
+    "label": 1,
+    "p_relevant": 0.9942418385233399,
+    "rating": 2.7711621941216715
+   },
+   {
+    "text": "Novel Coronavirus (nCoV): a Bitter Old Enemy in a New Avatar. Currently, pandemic coronavirus disease 2019 (COVID-19) is the biggest threat to all human beings globally. Till June 8, 2020, it has infected 6,931,000 people and caused 400,857 deaths worldwide. The first case was identified in a patient with influenza-like symptoms along with severe acute respiratory syndrome in Wuhan, China, in December 2019 and now it has spread in more than 200 countries. Since there is no approved cure for this disease until now, there is a lot of mass fear, apprehensions, and questions globally regarding (i) genetic origin and history of the novel coronavirus, (ii) what are the first-line therapies for those who contract this disease, and (iii) what could be the potential vaccine targets. In this short review, we have tried to address these queries in the simplest manner and compiled the history of previous coronaviruses, recent developments in the COVID-19 research, potential future therapeutics, and possible targets to cure the disease.",
+    "label": 0,
+    "p_relevant": 0.9937845180562505,
+    "rating": 2.8797081452967306
+   }
+  ]
+ },
+ {
+  "query": "has social distancing had an impact on slowing the spread of COVID-19?",
+  "ndcg10_bm25": 0.8092916130343136,
+  "ndcg10_jev": 1.0,
+  "seconds": 1.1716198921203613,
+  "bm25_top5": [
+   {
+    "text": "U.S. county level analysis to determine If social distancing slowed the spread of COVID-19. OBJECTIVE. To analyze the effectiveness of social distancing in the United States (U.S.). METHODS. A novel cell-phone ping data was used to quantify the measures of social distancing by all U.S. counties. RESULTS. Using a difference-in-difference approach results show that social distancing has been effective in slowing the spread of COVID-19. CONCLUSIONS. As policymakers face the very difficult question of the necessity and effectiveness of social distancing across the U.S., counties where the policies have been imposed have effectively increased social distancing and have seen slowing the spread of COVID-19. These results might help policymakers to make the public understand the risks and benefits of the lockdown.",
+    "label": 2
+   },
+   {
+    "text": "Fever and mobility data indicate social distancing has reduced incidence of communicable disease in the United States. In March of 2020, many U.S. state governments encouraged or mandated restrictions on social interactions to slow the spread of COVID-19, the disease caused by the novel coronavirus SARS-CoV-2 that has spread to nearly 180 countries. Estimating the effectiveness of these social-distancing strategies is challenging because surveillance of COVID-19 has been limited, with tests generally being prioritized for high-risk or hospitalized cases according to temporally and regionally varying criteria. Here we show that reductions in mobility across U.S. counties with at least 100 confirmed cases of COVID-19 led to reductions in fever incidences, as captured by smart thermometers, after a mean lag of 6.5 days ($90\\%$ within 3--10 days) that is consistent with the incubation period of COVID-19. Furthermore, counties with larger decreases in mobility subsequently achieved greater reductions in fevers ($p<0.01$), with the notable exception of New York City and its immediate vicinity. These results indicate that social distancing has reduced the transmission of influenza like illnesses, including COVID 19, and support social distancing as an effective strategy for slowing the spread of COVID-19.",
+    "label": 2
+   },
+   {
+    "text": "The Changing Face of Orthopedic Education: Searching for the New Reality After COVID-19. Abstract The COVID-19 pandemic has had immediate impact on the practice of medicine and orthopaedic education. As the practice of social distancing has been put into place to help slow the spread of disease as well as to conserve medical supplies and equipment, elective surgery has come to a grinding halt. This dramatic change has forced our leaders to critically evaluate the delivery of education and skills training for our residents, fellows as well as all orthopaedic surgeons. We must continue to develop technologies such as virtual meeting platforms, distance learning, simulation-based training, virtual reality andaugmented reality to augment the new world of orthopaedic education.",
+    "label": 1
+   },
+   {
+    "text": "Evaluation of Turkish social distancing measures on the spread of COVID-19. The coronavirus disease (COVID-19) affecting across the globe. The government of different countries has adopted various policies to contain this epidemic and the most common were social distancing and lockdown. We use a simple log-linear model with intercept and trend break to evaluate whether the measures are effective preventing/slowing down the spread of the disease in Turkey. We estimate the model parameters from the Johns Hopkins University (2020) epidemic data between 15th March and 16th April 2020. Our analysis revealed that the measures can slow down the outbreak. We can reduce the epidemic size and prolong the time to arrive at the epidemic peak by seriously following the measures suggested by the authorities.",
+    "label": 2
+   },
+   {
+    "text": "Early transmission dynamics of COVID-19 in a southern hemisphere setting: Lima-Peru: February 29th-March 30th, 2020. The COVID-19 pandemic that emerged in Wuhan China has generated substantial morbidity and mortality impact around the world during the last four months. The daily trend in reported cases has been rapidly rising in Latin America since March 2020 with the great majority of the cases reported in Brazil followed by Peru as of April 15th, 2020. Although Peru implemented a range of social distancing measures soon after the confirmation of its first case on March 6th, 2020, the daily number of new COVID-19 cases continues to accumulate in this country. We assessed the early COVID-19 transmission dynamics and the effect of social distancing interventions in Lima, Peru. We estimated the reproduction number, R, during the early transmission phase in Lima from the daily series of imported and autochthonous cases by the date of symptoms onset as of March 30th, 2020. We also assessed the effect of social distancing interventions in Lima by generating short-term forecasts grounded on the early transmission dynamics before interventions were put in place. Prior to the implementation of the social distancing measures in Lima, the local incidence curve by the date of symptoms onset displays near exponential growth dynamics with the mean scaling of growth parameter, p, estimated at 0.9 (95%CI: 0.9,1.0) and the reproduction number at 2.3 (95% CI: 2.0, 2.5). Our analysis indicates",
+    "label": 2
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "U.S. county level analysis to determine If social distancing slowed the spread of COVID-19. OBJECTIVE. To analyze the effectiveness of social distancing in the United States (U.S.). METHODS. A novel cell-phone ping data was used to quantify the measures of social distancing by all U.S. counties. RESULTS. Using a difference-in-difference approach results show that social distancing has been effective in slowing the spread of COVID-19. CONCLUSIONS. As policymakers face the very difficult question of the necessity and effectiveness of social distancing across the U.S., counties where the policies have been imposed have effectively increased social distancing and have seen slowing the spread of COVID-19. These results might help policymakers to make the public understand the risks and benefits of the lockdown.",
+    "label": 2,
+    "p_relevant": 0.9999684581760423,
+    "rating": 4.948932788267514
+   },
+   {
+    "text": "On the impact of early non-pharmaceutical interventions as containment strategies against the COVID-19 pandemic. Background The novel coronavirus SARS-CoV-2 (COVID-19) emerged in December 2019 in Wuhan, China and has spread since then to around 210 countries and territories by April 2020. Consequently, countries have adopted physical distance measures in an attempt to mitigate the uncontrolled spread of the virus. A critical question for policymakers to inform evidence-based practice is if and how physical distance measures slowed the propagation of COVID-19 in the early phase of the pandemic. Methods This study aims to quantify the effects of physical distance mitigation measures on the propagation of the COVID-19 pandemic. Data from John Hopkins University on confirmed cases and testing data from the Our World in Data were used in an interrupted time series analysis to estimate the effects of physical distance measures on the growth rates of the pandemic in 12 countries of Asia, Africa, and Europe. Findings We found that physical distance measures produced a significant decrease in the growth rates of the COVID-19 pandemic in five countries (Austria, Belgium, Italy, Malaysia, and South Korea). The test-positivity rate was significant in understanding the slowing growth rate of COVID-19 cases caused by the mitigation measures, as it provides important context that is missing from analysis based only on confirmed case data. Interpretation Physical distance interventions effec",
+    "label": 2,
+    "p_relevant": 0.9998843479115309,
+    "rating": 4.762983546522197
+   },
+   {
+    "text": "Fever and mobility data indicate social distancing has reduced incidence of communicable disease in the United States. In March of 2020, many U.S. state governments encouraged or mandated restrictions on social interactions to slow the spread of COVID-19, the disease caused by the novel coronavirus SARS-CoV-2 that has spread to nearly 180 countries. Estimating the effectiveness of these social-distancing strategies is challenging because surveillance of COVID-19 has been limited, with tests generally being prioritized for high-risk or hospitalized cases according to temporally and regionally varying criteria. Here we show that reductions in mobility across U.S. counties with at least 100 confirmed cases of COVID-19 led to reductions in fever incidences, as captured by smart thermometers, after a mean lag of 6.5 days ($90\\%$ within 3--10 days) that is consistent with the incubation period of COVID-19. Furthermore, counties with larger decreases in mobility subsequently achieved greater reductions in fevers ($p<0.01$), with the notable exception of New York City and its immediate vicinity. These results indicate that social distancing has reduced the transmission of influenza like illnesses, including COVID 19, and support social distancing as an effective strategy for slowing the spread of COVID-19.",
+    "label": 2,
+    "p_relevant": 0.9998619797869283,
+    "rating": 4.897566654266964
+   },
+   {
+    "text": "Evaluation of Turkish social distancing measures on the spread of COVID-19. The coronavirus disease (COVID-19) affecting across the globe. The government of different countries has adopted various policies to contain this epidemic and the most common were social distancing and lockdown. We use a simple log-linear model with intercept and trend break to evaluate whether the measures are effective preventing/slowing down the spread of the disease in Turkey. We estimate the model parameters from the Johns Hopkins University (2020) epidemic data between 15th March and 16th April 2020. Our analysis revealed that the measures can slow down the outbreak. We can reduce the epidemic size and prolong the time to arrive at the epidemic peak by seriously following the measures suggested by the authorities.",
+    "label": 2,
+    "p_relevant": 0.9997925644706657,
+    "rating": 4.484368897868561
+   },
+   {
+    "text": "No Place Like Home: A Cross-National Assessment of the Efficacy of Social Distancing during the COVID-19 Pandemic.. BACKGROUND In the absence of a cure in the time of pandemics, social distancing measures seem to be the most effective intervention to slow down the spread of disease. Various simulation-based studies have been conducted in the past to investigate the effectiveness of such measures. While those studies unanimously confirm the mitigating effect of social distancing on the disease spread, the reported effectiveness varies from 10% to more than 90% reduction in the number of infections. This level of uncertainty is mostly due to the complex dynamics of epidemics and their time-variant parameters. A real transactional data, however, can reduce the uncertainty and provide a less noisy picture of social distancing effectiveness. OBJECTIVE In this paper, we integrate multiple transactional data sets (GPS mobility data from Google and Apple as well as disease statistics data from ECDC) to study the role of social distancing policies in 26 countries wherein the transmission rate of the COVID-19 pandemic is analyzed over the course of five weeks. METHODS Relying on the SIR model and official COVID-19 reports, we first calculated the weekly transmission rate (β) of the coronavirus disease in 26 countries for five consecutive weeks. Then we integrated that with the Google's and Apple's mobility data sets for the same time frame and used a machine learning approach to invest",
+    "label": 2,
+    "p_relevant": 0.9997810968926655,
+    "rating": 4.630343186431067
+   }
+  ]
+ },
+ {
+  "query": "What new public datasets are available related to COVID-19?",
+  "ndcg10_bm25": 0.5370079586075637,
+  "ndcg10_jev": 0.9305687780632227,
+  "seconds": 1.0916748046875,
+  "bm25_top5": [
+   {
+    "text": "Rapidly Bootstrapping a Question Answering Dataset for COVID-19. We present CovidQA, the beginnings of a question answering dataset specifically designed for COVID-19, built by hand from knowledge gathered from Kaggle's COVID-19 Open Research Dataset Challenge. To our knowledge, this is the first publicly available resource of its type, and intended as a stopgap measure for guiding research until more substantial evaluation resources become available. While this dataset, comprising 124 question-article pairs as of the present version 0.1 release, does not have sufficient examples for supervised machine learning, we believe that it can be helpful for evaluating the zero-shot or transfer capabilities of existing models on topics specifically related to COVID-19. This paper describes our methodology for constructing the dataset and presents the effectiveness of a number of baselines, including term-based techniques and various transformer-based models. The dataset is available at http://covidqa.ai/",
+    "label": 2
+   },
+   {
+    "text": "Does Non-COVID19 Lung Lesion Help? Investigating Transferability in COVID-19 CT Image Segmentation. Coronavirus disease 2019 (COVID-19) is a highly contagious virus spreading all around the world. Deep learning has been adopted as an effective technique to aid COVID-19 detection and segmentation from computed tomography (CT) images. The major challenge lies in the inadequate public COVID-19 datasets. Recently, transfer learning has become a widely used technique that leverages the knowledge gained while solving one problem and applying it to a different but related problem. However, it remains unclear whether various non-COVID19 lung lesions could contribute to segmenting COVID-19 infection areas and how to better conduct this transfer procedure. This paper provides a way to understand the transferability of non-COVID19 lung lesions. Based on a publicly available COVID-19 CT dataset and three public non-COVID19 datasets, we evaluate four transfer learning methods using 3D U-Net as a standard encoder-decoder method. The results reveal the benefits of transferring knowledge from non-COVID19 lung lesions, and learning from multiple lung lesion datasets can extract more general features, leading to accurate and robust pre-trained models. We further show the capability of the encoder to learn feature representations of lung lesions, which improves segmentation accuracy and facilitates training convergence. In addition, our proposed Multi-encoder learning method incorporates transf",
+    "label": 0
+   },
+   {
+    "text": "Automatic Text Summarization of COVID-19 Medical Research Articles using BERT and GPT-2. With the COVID-19 pandemic, there is a growing urgency for medical community to keep up with the accelerating growth in the new coronavirus-related literature. As a result, the COVID-19 Open Research Dataset Challenge has released a corpus of scholarly articles and is calling for machine learning approaches to help bridging the gap between the researchers and the rapidly growing publications. Here, we take advantage of the recent advances in pre-trained NLP models, BERT and OpenAI GPT-2, to solve this challenge by performing text summarization on this dataset. We evaluate the results using ROUGE scores and visual inspection. Our model provides abstractive and comprehensive information based on keywords extracted from the original articles. Our work can help the the medical community, by providing succinct summaries of articles for which the abstract are not already available.",
+    "label": 0
+   },
+   {
+    "text": "COVID-CT-Dataset: A CT Scan Dataset about COVID-19. During the outbreak time of COVID-19, computed tomography (CT) is a useful manner for diagnosing COVID-19 patients. Due to privacy issues, publicly available COVID-19 CT datasets are highly difficult to obtain, which hinders the research and development of AI-powered diagnosis methods of COVID-19 based on CTs. To address this issue, we build an open-sourced dataset -- COVID-CT, which contains 349 COVID-19 CT images from 216 patients and 463 non-COVID-19 CTs. The utility of this dataset is confirmed by a senior radiologist who has been diagnosing and treating COVID-19 patients since the outbreak of this pandemic. We also perform experimental studies which further demonstrate that this dataset is useful for developing AI-based diagnosis models of COVID-19. Using this dataset, we develop diagnosis methods based on multi-task learning and self-supervised learning, that achieve an F1 of 0.90, an AUC of 0.98, and an accuracy of 0.89. According to the senior radiologist, models with such performance are good enough for clinical usage. The data and code are available at https://github.com/UCSD-AI4H/COVID-CT",
+    "label": 2
+   },
+   {
+    "text": "Public Opinions towards COVID-19 in California and New York on Twitter. Background: With the pandemic of COVID-19 and the release of related policies, discussions about the COVID-19 are widespread online. Social media becomes a reliable source for understanding public opinions toward this virus outbreak. Objective: This study aims to explore public opinions toward COVID-19 on social media by comparing the differences in sentiment changes and discussed topics between California and New York in the United States. Methods: A dataset with COVID-19-related Twitter posts was collected from March 5, 2020 to April 2, 2020 using Twitter streaming API. After removing any posts unrelated to COVID-19, as well as posts that contain promotion and commercial information, two individual datasets were created based on the geolocation tags with tweets, one containing tweets from California state and the other from New York state. Sentiment analysis was conducted to obtain the sentiment score for each COVID-19 tweet. Topic modeling was applied to identify top topics related to COVID-19. Results: While the number of COVID-19 cases increased more rapidly in New York than in California in March 2020, the number of tweets posted has a similar trend over time in both states. COVID-19 tweets from California had more negative sentiment scores than New York. There were some fluctuations in sentiment scores in both states over time, which might correlate with the policy changes and the severity of COVID",
+    "label": 2
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "COVID-CT-Dataset: A CT Scan Dataset about COVID-19. During the outbreak time of COVID-19, computed tomography (CT) is a useful manner for diagnosing COVID-19 patients. Due to privacy issues, publicly available COVID-19 CT datasets are highly difficult to obtain, which hinders the research and development of AI-powered diagnosis methods of COVID-19 based on CTs. To address this issue, we build an open-sourced dataset -- COVID-CT, which contains 349 COVID-19 CT images from 216 patients and 463 non-COVID-19 CTs. The utility of this dataset is confirmed by a senior radiologist who has been diagnosing and treating COVID-19 patients since the outbreak of this pandemic. We also perform experimental studies which further demonstrate that this dataset is useful for developing AI-based diagnosis models of COVID-19. Using this dataset, we develop diagnosis methods based on multi-task learning and self-supervised learning, that achieve an F1 of 0.90, an AUC of 0.98, and an accuracy of 0.89. According to the senior radiologist, models with such performance are good enough for clinical usage. The data and code are available at https://github.com/UCSD-AI4H/COVID-CT",
+    "label": 2,
+    "p_relevant": 0.9973633047195049,
+    "rating": 4.034365669810544
+   },
+   {
+    "text": "NAIST COVID: Multilingual COVID-19 Twitter and Weibo Dataset. Since the outbreak of coronavirus disease 2019 (COVID-19) in the late 2019, it has affected over 200 countries and billions of people worldwide. This has affected the social life of people owing to enforcements, such as\"social distancing\"and\"stay at home.\"This has resulted in an increasing interaction through social media. Given that social media can bring us valuable information about COVID-19 at a global scale, it is important to share the data and encourage social media studies against COVID-19 or other infectious diseases. Therefore, we have released a multilingual dataset of social media posts related to COVID-19, consisting of microblogs in English and Japanese from Twitter and those in Chinese from Weibo. The data cover microblogs from January 20, 2020, to March 24, 2020. This paper also provides a quantitative as well as qualitative analysis of these datasets by creating daily word clouds as an example of text-mining analysis. The dataset is now available on Github. This dataset can be analyzed in a multitude of ways and is expected to help in efficient communication of precautions related to COVID-19.",
+    "label": 2,
+    "p_relevant": 0.993688811399039,
+    "rating": 3.6682379796079556
+   },
+   {
+    "text": "ArCOV-19: The First Arabic COVID-19 Twitter Dataset with Propagation Networks. In this paper, we present ArCOV-19, an Arabic COVID-19 Twitter dataset that covers the period from 27th of January till 31st of March 2020. ArCOV-19 is the first publicly-available Arabic Twitter dataset covering COVID-19 pandemic that includes around 748k popular tweets (according to Twitter search criterion) alongside the propagation networks of the most-popular subset of them. The propagation networks include both retweets and conversational threads (i.e., threads of replies). ArCOV-19 is designed to enable research under several domains including natural language processing, information retrieval, and social computing, among others. Preliminary analysis shows that ArCOV-19 captures rising discussions associated with the first reported cases of the disease as they appeared in the Arab world. In addition to the source tweets and the propagation networks, we also release the search queries and the language-independent crawler used to collect the tweets to encourage the curation of similar datasets.",
+    "label": 2,
+    "p_relevant": 0.9885629833363735,
+    "rating": 3.2983297045368705
+   },
+   {
+    "text": "Rapidly Bootstrapping a Question Answering Dataset for COVID-19. We present CovidQA, the beginnings of a question answering dataset specifically designed for COVID-19, built by hand from knowledge gathered from Kaggle's COVID-19 Open Research Dataset Challenge. To our knowledge, this is the first publicly available resource of its type, and intended as a stopgap measure for guiding research until more substantial evaluation resources become available. While this dataset, comprising 124 question-article pairs as of the present version 0.1 release, does not have sufficient examples for supervised machine learning, we believe that it can be helpful for evaluating the zero-shot or transfer capabilities of existing models on topics specifically related to COVID-19. This paper describes our methodology for constructing the dataset and presents the effectiveness of a number of baselines, including term-based techniques and various transformer-based models. The dataset is available at http://covidqa.ai/",
+    "label": 2,
+    "p_relevant": 0.9851966577235346,
+    "rating": 3.35084668595754
+   },
+   {
+    "text": "POCOVID-Net: Automatic Detection of COVID-19 From a New Lung Ultrasound Imaging Dataset (POCUS). With the rapid development of COVID-19 into a global pandemic, there is an ever more urgent need for cheap, fast and reliable tools that can assist physicians in diagnosing COVID-19. Medical imaging such as CT can take a key role in complementing conventional diagnostic tools from molecular biology, and, using deep learning techniques, several automatic systems were demonstrated promising performances using CT or X-ray data. Here, we advocate a more prominent role of point-of-care ultrasound imaging to guide COVID-19 detection. Ultrasound is non-invasive and ubiquitous in medical facilities around the globe. Our contribution is threefold. First, we gather a lung ultrasound (POCUS) dataset consisting of (currently) 1103 images (654 COVID-19, 277 bacterial pneumonia and 172 healthy controls), sampled from 64 videos. While this dataset was assembled from various online sources and is by no means exhaustive, it was processed specifically to feed deep learning models and is intended to serve as a starting point for an open-access initiative. Second, we train a deep convolutional neural network (POCOVID-Net) on this 3-class dataset and achieve an accuracy of 89% and, by a majority vote, a video accuracy of 92% . For detecting COVID-19 in particular, the model performs with a sensitivity of 0.96, a specificity of 0.79 and F1-score of 0.92 in a 5-fold cross validation. Third, we provide a",
+    "label": 2,
+    "p_relevant": 0.9825161847220718,
+    "rating": 3.395234160855247
+   }
+  ]
+ },
+ {
+  "query": "what types of rapid testing for Covid-19 have been developed?",
+  "ndcg10_bm25": 0.32542886242602714,
+  "ndcg10_jev": 0.7849818707050383,
+  "seconds": 1.0131518840789795,
+  "bm25_top5": [
+   {
+    "text": "SARS-CoV-2 in urine. - Should Endourologists be concerned and what PPE measures should be taken to protect the Endourologist when in theatre ?. SARS-CoV-2 is usually transmitted through air however several recent reports have found the virus in urine. Only 187 urine samples have been reported to have been tested in the literature to date despite over 4 million cases of respiratory Covid 19 positive cases being reported worldwide. Of these 187 urine tests 6 were positive for the virus and this persisted in urine in once case for up to 42 days. The urine sample was still positive for Covid 19 despite respiratory swabs being negative. There is a potential concern therefore that Endourologists who generally perform a high number of urine prone procedures could be at risk of exposure to the virus peri operatively. There is still confusion as to the type of PPE Endourologists should use and in what circumstances. Until it is proven that urine is not a potential source for transmission of the Virus Endourologists should have a clear knowledge of the different types of PPE available and what they should use when performing procedures.",
+    "label": 0
+   },
+   {
+    "text": "Testing for SARS‐CoV‐2: the day the world turned its attention to the clinical laboratory. In the last few months, an unprecedented number of laboratory tests for COVID‐19 have been developed at a remarkable speed. With the rapid adoption of these tests into clinical practice, combined with the widespread publicity they received, questions arose related to the different types of tests, their utility, performance, and regulatory approval status. The aim of this publication is to provide a general landscape of laboratory testing for COVID‐19 and offer a historical and regulatory perspective associated with them. Specifically, we aim to elaborate on the regulatory complexities of diagnostic testing in the U.S. and its implications to the present outbreak, as well as provide a synopsis of laboratory tests that have been developed for COVID‐19. We will first address the detection of Sars‐Cov‐2 directly by either nucleic acid amplification tests (NAAT) or by the detection of the viral protein for active infections. Subsequently, we will provide an overview of serological tests that can aid not only in diagnosis but additionally help to identify prior infections and potential immunity.",
+    "label": 0
+   },
+   {
+    "text": "Testing For SARS-CoV-2: The Day the World Turned its Attention to the Clinical Laboratory. In the last few months, an unprecedented number of laboratory tests for coronavirus disease 2019 (COVID-19) have been developed at a remarkable speed. With the rapid adoption of these tests into clinical practice, combined with the widespread publicity they received, questions arose related to the different types of tests, their utility, performance, and regulatory approval status. The aim of this publication is to provide a general landscape of laboratory testing for COVID-19 and offer a historical and regulatory perspective associated with them. Specifically, we aim to elaborate on the regulatory complexities of diagnostic testing in the United States and its implications to the present outbreak, as well as provide a synopsis of laboratory tests that have been developed for COVID-19. We will first address the detection of severe acute respiratory syndrome-coronavirus 2 directly by either nucleic acid amplification tests or by the detection of the viral protein for active infections. Subsequently, we will provide an overview of serological tests that can aid not only in diagnosis but additionally help to identify prior infections and potential immunity.",
+    "label": 2
+   },
+   {
+    "text": "Coronavirus disease 2019 in children: Surprising findings in the midst of a global pandemic.. Question Coronavirus disease 2019 (COVID-19) is affecting millions of people worldwide. It seems that it affects mostly adults older than 40 years of age, and the death rate is highest for older individuals in the population. What should I tell parents worried about their children contracting the coronavirus (SARS-CoV-2) causing COVID-19, and what symptoms should I look for to determine if there is a need to test for the virus?Answer The COVID-19 global pandemic affects all ages. Severe respiratory manifestations have been the mainstay of illness in adults, with what seems to be rapid deterioration necessitating mechanical ventilation. Only 5% of those tested and found to have COVID-19 have been younger than 19 years, possibly owing to limited testing, as the symptoms in children are usually mild. Symptoms in children include fever, dry cough, rhinorrhea, sore throat, and fatigue, and in 10% diarrhea or vomiting. Rarely dyspnea or hypoxemia were also described. Blood tests and imaging have been shown to be of little value in children and should only be ordered for those in whom you would normally order these investigations for viral-like illness. No specific therapy is available and supportive care with rest, fluids, and antipyretics for children is the recommended approach. Ibuprofen or acetaminophen for fever and pain can be given. Antiviral and immunomodulatory treatment is not re",
+    "label": 0
+   },
+   {
+    "text": "Coronavirus disease 2019 in children: Surprising findings in the midst of a global pandemic. Question Coronavirus disease 2019 (COVID-19) is affecting millions of people worldwide. It seems that it affects mostly adults older than 40 years of age, and the death rate is highest for older individuals in the population. What should I tell parents worried about their children contracting the coronavirus (SARS-CoV-2) causing COVID-19, and what symptoms should I look for to determine if there is a need to test for the virus?Answer The COVID-19 global pandemic affects all ages. Severe respiratory manifestations have been the mainstay of illness in adults, with what seems to be rapid deterioration necessitating mechanical ventilation. Only 5% of those tested and found to have COVID-19 have been younger than 19 years, possibly owing to limited testing, as the symptoms in children are usually mild. Symptoms in children include fever, dry cough, rhinorrhea, sore throat, and fatigue, and in 10% diarrhea or vomiting. Rarely dyspnea or hypoxemia were also described. Blood tests and imaging have been shown to be of little value in children and should only be ordered for those in whom you would normally order these investigations for viral-like illness. No specific therapy is available and supportive care with rest, fluids, and antipyretics for children is the recommended approach. Ibuprofen or acetaminophen for fever and pain can be given. Antiviral and immunomodulatory treatment is not rec",
+    "label": 0
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "Current and emerging diagnostic tests available for the novel COVID-19 global pandemic. On March 11, 2020 the World Health Organization (WHO) upgraded the status of the coronavirus disease 2019 (COVID-19) outbreak from epidemic to a global pandemic. This infection is caused by a novel coronavirus, SARS-CoV-2. Several rapid diagnostic tests have been developed at an astonishing pace; however, COVID-19 requires more highly specific rapid point-of-care diagnostic tests. This review describes the currently available testing approaches, as well as the available test assays including the Xpert® Xpress SARS-CoV-2 test (takes (~)45 min) and Abbott ID COVID-19 test (5 min) as easy to use point-of-care tests for diagnosis of novel COVID-19 that have so far received the US Food and Drug Administration emergency use authorizations clearance. This review is correct as of the date published and will be updated as more diagnostic tests come to light.",
+    "label": 2,
+    "p_relevant": 0.9993774270630809,
+    "rating": 3.8808356023426374
+   },
+   {
+    "text": "Types of Assays for SARS-CoV-2 Testing: A Review. Clinical laboratory testing routinely provides actionable results, which help direct patient care in the inpatient and outpatient settings. Since December 2019, a novel coronavirus (SARS-CoV-2) has been causing disease (COVID-19 [coronavirus disease 2019]) in patients, beginning in China and now extending worldwide. In this context of a novel viral pandemic, clinical laboratories have developed multiple novel assays for SARS-CoV-2 diagnosis and for managing patients afflicted with this illness. These include molecular and serologic-based tests, some with point-of-care testing capabilities. Herein, we present an overview of the types of testing available for managing patients with COVID-19, as well as for screening of potential plasma donors who have recovered from COVID-19.",
+    "label": 2,
+    "p_relevant": 0.9945834780171297,
+    "rating": 3.1182157930621357
+   },
+   {
+    "text": "Types of Assays for SARS-CoV-2 Testing: A Review.. Clinical laboratory testing routinely provides actionable results, which help direct patient care in the inpatient and outpatient settings. Since December 2019, a novel coronavirus (SARS-CoV-2) has been causing disease (COVID-19 [coronavirus disease 2019]) in patients, beginning in China and now extending worldwide. In this context of a novel viral pandemic, clinical laboratories have developed multiple novel assays for SARS-CoV-2 diagnosis and for managing patients afflicted with this illness. These include molecular and serologic-based tests, some with point-of-care testing capabilities. Herein, we present an overview of the types of testing available for managing patients with COVID-19, as well as for screening of potential plasma donors who have recovered from COVID-19.",
+    "label": 2,
+    "p_relevant": 0.9930830398099356,
+    "rating": 3.0589237819098463
+   },
+   {
+    "text": "Testing For SARS-CoV-2: The Day the World Turned its Attention to the Clinical Laboratory. In the last few months, an unprecedented number of laboratory tests for coronavirus disease 2019 (COVID-19) have been developed at a remarkable speed. With the rapid adoption of these tests into clinical practice, combined with the widespread publicity they received, questions arose related to the different types of tests, their utility, performance, and regulatory approval status. The aim of this publication is to provide a general landscape of laboratory testing for COVID-19 and offer a historical and regulatory perspective associated with them. Specifically, we aim to elaborate on the regulatory complexities of diagnostic testing in the United States and its implications to the present outbreak, as well as provide a synopsis of laboratory tests that have been developed for COVID-19. We will first address the detection of severe acute respiratory syndrome-coronavirus 2 directly by either nucleic acid amplification tests or by the detection of the viral protein for active infections. Subsequently, we will provide an overview of serological tests that can aid not only in diagnosis but additionally help to identify prior infections and potential immunity.",
+    "label": 2,
+    "p_relevant": 0.9920645255797543,
+    "rating": 3.42087262604006
+   },
+   {
+    "text": "Testing for SARS‐CoV‐2: the day the world turned its attention to the clinical laboratory. In the last few months, an unprecedented number of laboratory tests for COVID‐19 have been developed at a remarkable speed. With the rapid adoption of these tests into clinical practice, combined with the widespread publicity they received, questions arose related to the different types of tests, their utility, performance, and regulatory approval status. The aim of this publication is to provide a general landscape of laboratory testing for COVID‐19 and offer a historical and regulatory perspective associated with them. Specifically, we aim to elaborate on the regulatory complexities of diagnostic testing in the U.S. and its implications to the present outbreak, as well as provide a synopsis of laboratory tests that have been developed for COVID‐19. We will first address the detection of Sars‐Cov‐2 directly by either nucleic acid amplification tests (NAAT) or by the detection of the viral protein for active infections. Subsequently, we will provide an overview of serological tests that can aid not only in diagnosis but additionally help to identify prior infections and potential immunity.",
+    "label": 0,
+    "p_relevant": 0.9883878115354111,
+    "rating": 3.4289114985500007
+   }
+  ]
+ },
+ {
+  "query": "how has COVID-19 affected Canada",
+  "ndcg10_bm25": 0.13427646144501054,
+  "ndcg10_jev": 0.5776304497467898,
+  "seconds": 1.0684618949890137,
+  "bm25_top5": [
+   {
+    "text": "Has the COVID-19 Pandemic Affected MPs’ Representational Activities?. The COVID-19 pandemic has necessarily affected the operation of Canada's Parliament and, thus, the activities of Members of Parliament (MPs) (Malloy, 2020; Rayment and VandenBeukel, 2020). Here, we explore how the pandemic has affected the representational activities of individual MPs.",
+    "label": 0
+   },
+   {
+    "text": "Severe acute respiratory syndrome and its effects on health care: how Canada has dealt with this ordeal.. The global epidemic of severe acute respiratory syndrome (SARS) indirectly has affected all health care facilities in affected nations and has unaffected nations on alert. Health care practitioners need to be aware of infection control measures to prevent the spread of SARS. This article looks at this new disease and how it has affected the delivery of health care in Canada.",
+    "label": 0
+   },
+   {
+    "text": "Disruption to surgical training during Covid-19 in the United States, United Kingdom, Canada and Australasia: a rapid review of impact and mitigation efforts. The global Covid-19 pandemic has the potential to lead to significant training disruptions affecting surgical residents across all specialties. There has been lively social media discussion about the impact of cancelled training activities under the twitter hashtag #NoTrainingTodayNoSurgeonsTomorrow. We present a rapid scoping review synthesising the current evidence of pandemic-related impact on surgical training in the United States, United Kingdom, Canada, Australia and New Zealand. We describe and compare strategies that have been put in place to mitigate disruption, and reflect on how the challenges of the pandemic may present the opportunity to improve on how we select, assess and train surgeons in the future.",
+    "label": 1
+   },
+   {
+    "text": "COVID-19, extractive industries, and indigenous communities in Canada: Notes towards a political economy research agenda. As the economic ramifications of the COVID-19 pandemic continue to unfold, it is becoming increasingly apparent that this crisis will have significant and lasting implications for the relationship between extractive industries and Indigenous communities. Using a case study from Canada, this paper examines how the political dynamics of industry-Indigenous relations have changed and speculates about how these dynamics might continue to change in the future. The economic crisis has already intensified political conflicts and struggles between Indigenous peoples and mining, oil, and gas companies. We identify and discuss four points of conflict between Indigenous communities and extractive industries that have become more acute as a result of the current economic crisis. It is important for researchers to pay close attention to how these conflicts are affected by the pandemic, in order to help Indigenous communities develop strategies to cope with changes in industry-Indigenous relations.",
+    "label": 0
+   },
+   {
+    "text": "Canada’s role in strengthening global health security during the COVID-19 pandemic. The world is confronted by the current pandemic of Corona Virus Disease (COVID-19), which is a wake-up call for all nations irrespective of their development status or geographical location. Since the start of the century we have seen five big infectious outbreaks which proved that epidemics are no more regarded as historic and geographically confined threats. The Canadian government underlined that these infectious disease outbreaks are threats to global health security and disrupt societal wellbeing and development. In this context, the Public Health Agency of Canada is proactive and has shown its preparedness for outbreaks of emerging and epidemic-prone diseases, and in dealing with these pathogens. Even before the declaration of pandemic, Canada has proved its global health leadership by ensuring collective action and multisectoral coordination which still remains a serious challenge especially for low and middle- income countries with existing poor health systems. In this article we discuss how Canada is addressing the global challenges posed by the COVID-19 pandemic through its leadership and practice of global health diplomacy.",
+    "label": 1
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "Assessing the burden of COVID-19 in Canada. Background: The burden of COVID-19 in Canada is unequally distributed geographically, with the largest number of cases and fatalities recorded in Quebec and Ontario while other provinces experienced limited outbreaks. To date, however, no study has assessed how provincial epidemics have unfolded in a comparative perspective. This is essential to calibrate projections of the future course of the epidemic and plan health care resources for the second wave of infections. Methods: Using newly released individual-level data collected by the Public Health Agency of Canada, we assess COVID-19-related morbidity and mortality across age and gender groups at the provincial level through a combination of demographic and survival analyses. Results: Quebec has the highest absolute and per capita number of COVID-19 confirmed positive cases, hospitalizations and fatalities in all age groups. In each province, a higher number of women than men test positive for the disease, especially above age 80. Yet consistently across age groups, infected men are more likely to be hospitalized and enter intensive care than women do. These gender differences in hospitalisation rates account for the higher case fatality risk due to COVID-19 among men compared to women. Interpretation: Although health care capacity across provinces has been sufficient to treat severe cases, we find that the main factor accounting for gender differences in COVID-19-related mortalit",
+    "label": 2,
+    "p_relevant": 0.9986984940165657,
+    "rating": 4.275559084833611
+   },
+   {
+    "text": "COVID-19 in Canada: Predictions for the future and control lessons from Asia. COVID-19 has spread with unequal efficiency in various parts of the world. In several European countries including Italy, the increase in the number of COVID-19 cases has followed a consistent, exponential pattern of spread. However, some countries, notably Taiwan and Hong Kong, have achieved a different outcome and have managed to bring the COVID-19 outbreak in their countries rapidly under control, without entering the exponential pattern and with very few cases. They have used several different approaches to COVID-19 outbreak control, including the innovative use of smartphone technology and the widespread use of surgical face masks. We show through our models, that Canada has followed the same, consistent COVID-19 exponential growth pattern that is seen in Italy. Both nationally and in its most heavily affected provinces, there is exponential growth of COVID-19 cases, making it possible to make predictions for the future, if no further interventions are made in public health policy. In particular, we argue for the urgent introduction of surgical face masks in health care and other settings and the harnessing of the power of smartphone technology on a national scale.",
+    "label": 2,
+    "p_relevant": 0.9956944056633388,
+    "rating": 3.996860841352179
+   },
+   {
+    "text": "Canada needs to rapidly escalate public health interventions for its COVID-19 mitigation strategies. BACKGROUND: After the declaration of COVID-19 pandemic on March 11th(,) 2020, local transmission chains starting in different countries including Canada are forcing governments to take decisions on public health interventions to mitigate the spread of the epidemic. METHODS: We conduct data-driven and model-free estimations for the growth rates of the COVID-19 epidemics in Italy and Canada, by fitting an exponential curve to the daily reported cases. We use these estimates to predict epidemic trends in Canada under different scenarios of public health interventions. RESULTS: In Italy, the initial growth rate (0.22) has reduced to 0.1 two weeks after the lockdown of the country on March 8th(,) 2020. This corresponds to an increase of the doubling time from about 3.15 to almost 7 days. In comparison, the growth rate in Canada has increased from 0.13 between March 1st and 13th, to 0.25 between March 13th to 22nd. This current growth rate corresponds to a doubling time of 2.7 days, and therefore, unless further public health interventions are escalated in Canada, we project 15,000 cases by March 31st. However, the case number may be reduced to 4000 if escalated public health interventions could instantly reduce the growth rate to 0.1, the same level achieved in Italy. INTERPRETATION: Prompt and farsighted interventions are critical to counteract the very rapid initial growth of the",
+    "label": 2,
+    "p_relevant": 0.994904952423982,
+    "rating": 3.9466588493686743
+   },
+   {
+    "text": "How long will social distancing take to work? Experts weigh in on Canada's COVID-19 response. ",
+    "label": 0,
+    "p_relevant": 0.9840324925473781,
+    "rating": 2.3959989524734366
+   },
+   {
+    "text": "The impact of COVID‐19 on food retail and food service in Canada: Preliminary assessment. COVID‐19 has imposed a series of unique challenges on the food retail and food service sectors in Canada. Almost overnight, the roughly 30% of the food dollar that Canadians have been spending on food away from home has shifted to retail.",
+    "label": 0,
+    "p_relevant": 0.9811452560519,
+    "rating": 2.3332801356037844
+   }
+  ]
+ },
+ {
+  "query": "What are the longer-term complications of those who recover from COVID-19?",
+  "ndcg10_bm25": 0.06625422345438903,
+  "ndcg10_jev": 0.5056820543703548,
+  "seconds": 0.9760532379150391,
+  "bm25_top5": [
+   {
+    "text": "Laboratory findings that predict a poor prognosis in COVID-19 patients with diabetes: A meta-analysis. Diabetes is one of the main comorbidities in patients infected with the SARS-CoV-2 virus, the causative agent of the new coronavirus disease 2019 (COVID-19). Because the presence of diabetes and COVID-19 in the same patient is related to a poor clinical prognosis and a high probability of death, it is necessary to determine what findings allow us to predict a good or bad resolution of the disease in order to opt for a traditional treatment or a more incisive one. In this way, in the present work we analyze which laboratory parameters showed differences in patients with COVID-19 and diabetes who recovered and in those who had complications or died.",
+    "label": 0
+   },
+   {
+    "text": "Intervention Serology and Interaction Substitution: Modeling the Role of ‘Shield Immunity’ in Reducing COVID-19 Epidemic Spread. The COVID-19 pandemic has precipitated a global crisis, with more than 690,000 confirmed cases and more than 33,000 confirmed deaths globally as of March 30, 2020 [1–4]. At present twOfficentral public health control strategies have emerged: mitigation and suppression (e.g, [5]). Both strategies focus on reducing new infections by reducing interactions (and both raise questions of sustainability and long-term tactics). Complementary to those approaches, here we develop and analyze an epidemiological intervention model that leverages serological tests [6, 7] to identify and deploy recovered individuals as focal points for sustaining safer interactions via interaction substitution, i.e., to develop what we term ‘shield immunity’ at the population scale. Recovered individuals, in the present context, represent those who have developed protective, antibodies to SARS-CoV-2 and are no longer shedding virus [8]. The objective of a shield immunity strategy is to help sustain the interactions necessary for the functioning of essential goods and services (including but not limited to tending to the elderly [9], hospital care, schools, and food supply) while decreasing the probability of transmission during such essential interactions. We show that a shield immunity approach may significantly reduce the length and reduce the overall burden of an outbreak, and ",
+    "label": 0
+   },
+   {
+    "text": "Recovering from the COVID-19 Pandemic: A Focus on Older Adults.. As we look toward recovery from the COVID-19 pandemic, we overview challenges to be minimized, including economic setbacks, health and well-being effects, and highlighted ageism, racism, and classism. We articulate opportunities to be seized, including increased comfort with technology and online platforms; stronger family and intergenerational connections, renewed energy to combat social isolation; more respect for self-care and time management; increased awareness about the importance of advance directives; and, potentially, increased interest across disciplines to work on issues of aging society. Ongoing efforts to improve policies and programs for longer, healthier lives might now be more productive, as we communicate to consumers, public officials, and everyday citizens who may be more aware of what isn't working, what is at stake, and what might be improved.",
+    "label": 0
+   },
+   {
+    "text": "Recovering from the COVID-19 Pandemic: A Focus on Older Adults. As we look toward recovery from the COVID-19 pandemic, we overview challenges to be minimized, including economic setbacks, health and well-being effects, and highlighted ageism, racism, and classism. We articulate opportunities to be seized, including increased comfort with technology and online platforms; stronger family and intergenerational connections, renewed energy to combat social isolation; more respect for self-care and time management; increased awareness about the importance of advance directives; and, potentially, increased interest across disciplines to work on issues of aging society. Ongoing efforts to improve policies and programs for longer, healthier lives might now be more productive, as we communicate to consumers, public officials, and everyday citizens who may be more aware of what isn't working, what is at stake, and what might be improved.",
+    "label": 0
+   },
+   {
+    "text": "Taking the Longer View of COVID‐19. What are the prospects for dealing with COVID‐19 more effectively in the future? This editorial addresses the question from the perspective of long‐term control of coronavirus infection.",
+    "label": 0
+   }
+  ],
+  "jev_top5": [
+   {
+    "text": "A Case of COVID-19 Infection With Delayed Thromboembolic Complication on Warfarin. Novel coronavirus disease 2019 (COVID-19) pandemic has posed an unprecedented threat to humanity with more than eight million infections and 450,000 deaths reported worldwide so far. The spectrum of the disease varies from mild asymptomatic infection to severe disease with rapid progression to acute respiratory distress syndrome and multiorgan failure. It is associated with a prothrombotic state and hence there is a risk of thromboembolic complications in critically ill patients, even after recovery. However, the duration of prothrombotic risk after recovery is yet to be determined. We present the case of a 78-year-old man with a history of atrial fibrillation on warfarin who had been recently discharged to a nursing home after recovering from COVID-19 pneumonia and presented to the emergency department a month later with worsening shortness of breath and cough. He was found to have worsening respiratory failure with multiple segmental pulmonary emboli, despite being on warfarin, and supratherapeutic international normalized ratio (INR). He required mechanical ventilation and was started on steroids and therapeutic enoxaparin anticoagulation. This case highlights the risk of delayed thromboembolic complications in patients with COVID-19 infection and the need to identify the subgroup of patients with a higher risk of thromboembolism, such as discharges to nursing homes and those in need of oxyg",
+    "label": 2,
+    "p_relevant": 0.9756494055855917,
+    "rating": 3.0944054163823056
+   },
+   {
+    "text": "The impact of nutrition on COVID-19 susceptibility and long-term consequences. Abstract While all groups are affected by the COVID-19 pandemic, the elderly, underrepresented minorities, and those with underlying medical conditions are at the greatest risk. The high rate of consumption of diets high in saturated fats, sugars, and refined carbohydrates (collectively called Western diet, WD) worldwide, contribute to the prevalence of obesity and type II diabetes, and could place these populations at an increased risk for severe COVID-19 pathology and mortality. WD consumption activates the innate immune system and impairs adaptive immunity, leading to chronic inflammation and impaired host defense against viruses. Furthermore, peripheral inflammation caused by COVID-19 may have long-term consequences in those that recover, leading to chronic medical conditions such as dementia and neurodegenerative disease, likely through neuroinflammatory mechanisms that can be compounded by an unhealthy diet. Thus, now more than ever, wider access to healthy foods should be a top priority and individuals should be mindful of healthy eating habits to reduce susceptibility to and long-term complications from COVID-19.",
+    "label": 2,
+    "p_relevant": 0.9635740604346338,
+    "rating": 2.768470607392592
+   },
+   {
+    "text": "The impact of nutrition on COVID-19 susceptibility and long-term consequences. While all groups are affected by the COVID-19 pandemic, the elderly, underrepresented minorities, and those with underlying medical conditions are at the greatest risk. The high rate of consumption of diets high in saturated fats, sugars, and refined carbohydrates (collectively called Western diet, WD) worldwide, contribute to the prevalence of obesity and type 2 diabetes, and could place these populations at an increased risk for severe COVID-19 pathology and mortality. WD consumption activates the innate immune system and impairs adaptive immunity, leading to chronic inflammation and impaired host defense against viruses. Furthermore, peripheral inflammation caused by COVID-19 may have long-term consequences in those that recover, leading to chronic medical conditions such as dementia and neurodegenerative disease, likely through neuroinflammatory mechanisms that can be compounded by an unhealthy diet. Thus, now more than ever, wider access to healthy foods should be a top priority and individuals should be mindful of healthy eating habits to reduce susceptibility to and long-term complications from COVID-19.",
+    "label": 2,
+    "p_relevant": 0.9630304786560527,
+    "rating": 2.756505790792006
+   },
+   {
+    "text": "Behavioral Health and Response for COVID-19. Research from financial stress, disasters, pandemics, and other extreme events, suggests that behavioral health will suffer, including anxiety, depression, and posttraumatic stress symptoms. Furthermore, these symptoms are likely to exacerbate alcohol or drug use, especially for those vulnerable to relapse. The nature of coronavirus disease 2019 (COVID-19) and vast reach of the virus, leave many unknows for the repercussions on behavioral health, yet existing research suggests that behavioral health concerns should take a primary role in response to the pandemic. We propose a 4-step services system designed for implementation with a variety of different groups and reserves limited clinical services for the most extreme reactions. While we can expect symptoms to remit overtime, many will also have longer-term or more severe concerns. Behavioral health interventions will likely need to change overtime and different types of interventions should be considered for different target groups, such as for those who recover from COVID-19, health-care professionals, and essential personnel; and the general public either due to loss of loved ones or significant life disruption. The important thing is to have a systematic plan to support behavioral health and to engage citizens in prevention and doing their part in recovery by staying home and protecting others.",
+    "label": 0,
+    "p_relevant": 0.9391848411144774,
+    "rating": 2.804550978401047
+   },
+   {
+    "text": "Laboratory findings that predict a poor prognosis in COVID-19 patients with diabetes: A meta-analysis. Diabetes is one of the main comorbidities in patients infected with the SARS-CoV-2 virus, the causative agent of the new coronavirus disease 2019 (COVID-19). Because the presence of diabetes and COVID-19 in the same patient is related to a poor clinical prognosis and a high probability of death, it is necessary to determine what findings allow us to predict a good or bad resolution of the disease in order to opt for a traditional treatment or a more incisive one. In this way, in the present work we analyze which laboratory parameters showed differences in patients with COVID-19 and diabetes who recovered and in those who had complications or died.",
+    "label": 0,
+    "p_relevant": 0.6133408880294382,
+    "rating": 2.0371897360787177
+   }
+  ]
+ }
+]

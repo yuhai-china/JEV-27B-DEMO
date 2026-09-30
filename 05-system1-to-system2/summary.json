@@ -1,0 +1,111 @@
+{
+ "policies": [
+  {
+   "threshold": 0.0,
+   "escalated": 0.0,
+   "accuracy": 0.7916666666666666,
+   "mean_seconds": 0.10937146743138632,
+   "median_seconds": 0.10961413383483887,
+   "p90_seconds": 0.11793041229248047,
+   "mean_thinking_tokens": 0.0
+  },
+  {
+   "threshold": 0.5,
+   "escalated": 0.14166666666666666,
+   "accuracy": 0.825,
+   "mean_seconds": 5.637591354052225,
+   "median_seconds": 0.1103510856628418,
+   "p90_seconds": 5.116358280181885,
+   "mean_thinking_tokens": 425.35
+  },
+  {
+   "threshold": 0.6,
+   "escalated": 0.20833333333333334,
+   "accuracy": 0.8583333333333333,
+   "mean_seconds": 7.711827001969019,
+   "median_seconds": 0.1106107234954834,
+   "p90_seconds": 21.97389507293701,
+   "mean_thinking_tokens": 586.3416666666667
+  },
+  {
+   "threshold": 0.7,
+   "escalated": 0.3,
+   "accuracy": 0.8916666666666667,
+   "mean_seconds": 8.693708576758702,
+   "median_seconds": 0.1118171215057373,
+   "p90_seconds": 38.24084234237671,
+   "mean_thinking_tokens": 658.425
+  },
+  {
+   "threshold": 0.8,
+   "escalated": 0.4083333333333333,
+   "accuracy": 0.9083333333333333,
+   "mean_seconds": 9.959546780586242,
+   "median_seconds": 0.11289811134338379,
+   "p90_seconds": 39.483741760253906,
+   "mean_thinking_tokens": 750.7416666666667
+  },
+  {
+   "threshold": 0.9,
+   "escalated": 0.475,
+   "accuracy": 0.9,
+   "mean_seconds": 10.309516264994938,
+   "median_seconds": 0.12015223503112793,
+   "p90_seconds": 39.483741760253906,
+   "mean_thinking_tokens": 775.2
+  },
+  {
+   "threshold": 0.95,
+   "escalated": 0.55,
+   "accuracy": 0.9,
+   "mean_seconds": 10.686920324961344,
+   "median_seconds": 2.436757802963257,
+   "p90_seconds": 39.483741760253906,
+   "mean_thinking_tokens": 802.0083333333333
+  },
+  {
+   "threshold": 0.99,
+   "escalated": 0.7583333333333333,
+   "accuracy": 0.9083333333333333,
+   "mean_seconds": 11.372994285821914,
+   "median_seconds": 3.6290295124053955,
+   "p90_seconds": 39.483741760253906,
+   "mean_thinking_tokens": 849.375
+  },
+  {
+   "threshold": 1.01,
+   "escalated": 1.0,
+   "accuracy": 0.9166666666666666,
+   "mean_seconds": 11.992516648769378,
+   "median_seconds": 3.7498397827148438,
+   "p90_seconds": 39.483741760253906,
+   "mean_thinking_tokens": 892.1166666666667
+  }
+ ],
+ "per_source": {
+  "GSM8K-4": {
+   "s1": 0.8,
+   "s2": 1.0,
+   "gated": 0.9,
+   "esc": 0.26666666666666666
+  },
+  "AQuA-RAT": {
+   "s1": 0.6,
+   "s2": 0.9,
+   "gated": 0.8666666666666667,
+   "esc": 0.4666666666666667
+  },
+  "ARC-Challenge": {
+   "s1": 0.9333333333333333,
+   "s2": 1.0,
+   "gated": 0.9666666666666667,
+   "esc": 0.13333333333333333
+  },
+  "CommonsenseQA": {
+   "s1": 0.8333333333333334,
+   "s2": 0.7666666666666667,
+   "gated": 0.8333333333333334,
+   "esc": 0.3333333333333333
+  }
+ }
+}

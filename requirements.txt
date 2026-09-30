@@ -1,0 +1,6 @@
+requests
+huggingface_hub
+matplotlib
+pandas
+gradio>=5
+# serving (GPU machine): vllm with Qwen3.5/3.8 (qwen3_5) support, LoRA on lm_head, --logprobs-mode, allowed_token_ids

@@ -1,0 +1,110 @@
+{
+ "trec-covid": {
+  "random order (mean of 5)": {
+   "ndcg@1": 0.412,
+   "ndcg@3": 0.398,
+   "ndcg@5": 0.403,
+   "ndcg@10": 0.403
+  },
+  "BM25 (first stage)": {
+   "ndcg@1": 0.73,
+   "ndcg@3": 0.72,
+   "ndcg@5": 0.674,
+   "ndcg@10": 0.623
+  },
+  "bge-reranker-v2-m3 [bge]": {
+   "ndcg@1": 0.86,
+   "ndcg@3": 0.843,
+   "ndcg@5": 0.826,
+   "ndcg@10": 0.793
+  },
+  "jev-27b [yesno]": {
+   "ndcg@1": 0.96,
+   "ndcg@3": 0.9,
+   "ndcg@5": 0.89,
+   "ndcg@10": 0.852
+  },
+  "jev-27b [score]": {
+   "ndcg@1": 0.93,
+   "ndcg@3": 0.911,
+   "ndcg@5": 0.888,
+   "ndcg@10": 0.858
+  },
+  "pool upper bound (perfect re-ranking)": {
+   "ndcg@1": 1.0,
+   "ndcg@3": 1.0,
+   "ndcg@5": 0.997,
+   "ndcg@10": 0.981
+  }
+ },
+ "nfcorpus": {
+  "random order (mean of 5)": {
+   "ndcg@1": 0.088,
+   "ndcg@3": 0.095,
+   "ndcg@5": 0.099,
+   "ndcg@10": 0.105
+  },
+  "BM25 (first stage)": {
+   "ndcg@1": 0.432,
+   "ndcg@3": 0.391,
+   "ndcg@5": 0.356,
+   "ndcg@10": 0.321
+  },
+  "bge-reranker-v2-m3 [bge]": {
+   "ndcg@1": 0.463,
+   "ndcg@3": 0.409,
+   "ndcg@5": 0.375,
+   "ndcg@10": 0.341
+  },
+  "jev-27b [yesno]": {
+   "ndcg@1": 0.494,
+   "ndcg@3": 0.45,
+   "ndcg@5": 0.422,
+   "ndcg@10": 0.375
+  },
+  "jev-27b [score]": {
+   "ndcg@1": 0.502,
+   "ndcg@3": 0.446,
+   "ndcg@5": 0.417,
+   "ndcg@10": 0.374
+  },
+  "pool upper bound (perfect re-ranking)": {
+   "ndcg@1": 0.757,
+   "ndcg@3": 0.651,
+   "ndcg@5": 0.591,
+   "ndcg@10": 0.505
+  }
+ },
+ "esci": {
+  "random order (mean of 5)": {
+   "ndcg@1": 0.667,
+   "ndcg@3": 0.682,
+   "ndcg@5": 0.701,
+   "ndcg@10": 0.749
+  },
+  "bge-reranker-v2-m3 [bge]": {
+   "ndcg@1": 0.84,
+   "ndcg@3": 0.834,
+   "ndcg@5": 0.833,
+   "ndcg@10": 0.854
+  },
+  "jev-27b [yesno]": {
+   "ndcg@1": 0.857,
+   "ndcg@3": 0.855,
+   "ndcg@5": 0.858,
+   "ndcg@10": 0.873
+  },
+  "jev-27b [score]": {
+   "ndcg@1": 0.878,
+   "ndcg@3": 0.861,
+   "ndcg@5": 0.859,
+   "ndcg@10": 0.881
+  },
+  "pool upper bound (perfect re-ranking)": {
+   "ndcg@1": 1.0,
+   "ndcg@3": 1.0,
+   "ndcg@5": 1.0,
+   "ndcg@10": 1.0
+  }
+ }
+}

@@ -1,0 +1,277 @@
+{
+ "seconds": 0.43300461769104004,
+ "decisions": [
+  {
+   "type": "ticket",
+   "input": "I was charged twice for my annual plan this morning. Please refund the duplicate charge ASAP.",
+   "question": "team",
+   "probs": {
+    "billing": 0.9999921565708059,
+    "mobile app": 4.907948079506369e-06,
+    "platform / SSO": 2.5335879646280797e-06,
+    "product feedback": 4.01893149972346e-07
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "I was charged twice for my annual plan this morning. Please refund the duplicate charge ASAP.",
+   "question": "priority",
+   "probs": {
+    "low": 0.0003647382417799795,
+    "medium": 0.007839725711093518,
+    "high": 0.31408856709443067,
+    "urgent": 0.6777069689526958
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "I was charged twice for my annual plan this morning. Please refund the duplicate charge ASAP.",
+   "question": "human",
+   "probs": {
+    "false": 0.2952296182121828,
+    "true": 0.7047703817878171
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "The iOS app crashes every time I open the camera scanner since yesterday's update. iPhone 15, iOS 19.2.",
+   "question": "team",
+   "probs": {
+    "billing": 1.8093029836361462e-06,
+    "mobile app": 0.997875670748439,
+    "platform / SSO": 0.00012180897093161906,
+    "product feedback": 0.0020007109776457466
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "The iOS app crashes every time I open the camera scanner since yesterday's update. iPhone 15, iOS 19.2.",
+   "question": "priority",
+   "probs": {
+    "low": 0.000750369596298143,
+    "medium": 0.007125545258425463,
+    "high": 0.41289997787948707,
+    "urgent": 0.5792241072657892
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "The iOS app crashes every time I open the camera scanner since yesterday's update. iPhone 15, iOS 19.2.",
+   "question": "human",
+   "probs": {
+    "false": 0.4387501421908883,
+    "true": 0.5612498578091117
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Can you add dark mode to the web dashboard? Not urgent, just a suggestion.",
+   "question": "team",
+   "probs": {
+    "billing": 2.0693887355524522e-05,
+    "mobile app": 0.008886491289538553,
+    "platform / SSO": 0.008617282303241765,
+    "product feedback": 0.9824755325198641
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Can you add dark mode to the web dashboard? Not urgent, just a suggestion.",
+   "question": "priority",
+   "probs": {
+    "low": 0.9914698406991149,
+    "medium": 0.008434971575634283,
+    "high": 5.6538397057119835e-05,
+    "urgent": 3.8649328193822185e-05
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Can you add dark mode to the web dashboard? Not urgent, just a suggestion.",
+   "question": "human",
+   "probs": {
+    "false": 0.6080837589919652,
+    "true": 0.3919162410080348
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Our whole team is locked out — SSO returns error 500 for everyone since 9:05. We have a board demo at 11.",
+   "question": "team",
+   "probs": {
+    "billing": 8.535077134231428e-07,
+    "mobile app": 2.6530778455900343e-06,
+    "platform / SSO": 0.9999947945347514,
+    "product feedback": 1.6988796897189845e-06
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Our whole team is locked out — SSO returns error 500 for everyone since 9:05. We have a board demo at 11.",
+   "question": "priority",
+   "probs": {
+    "low": 4.36420409548205e-05,
+    "medium": 0.0007622012446236034,
+    "high": 0.08555722210403992,
+    "urgent": 0.9136369346103815
+   }
+  },
+  {
+   "type": "ticket",
+   "input": "Our whole team is locked out — SSO returns error 500 for everyone since 9:05. We have a board demo at 11.",
+   "question": "human",
+   "probs": {
+    "false": 0.1406630728250031,
+    "true": 0.859336927174997
+   }
+  },
+  {
+   "type": "email",
+   "input": {
+    "from": "security@paypa1-support.com",
+    "subject": "Unusual sign-in — verify within 24h",
+    "body": "We detected a login from a new device. Verify your account now or it will be suspended.",
+    "link": "http://paypa1-support.com/verify"
+   },
+   "question": "phishing",
+   "probs": {
+    "phishing": 0.9974426121479465,
+    "legitimate": 0.002557387852053569
+   }
+  },
+  {
+   "type": "email",
+   "input": {
+    "from": "no-reply@github.com",
+    "subject": "[GitHub] A new SSH key was added to your account",
+    "body": "A new public key was added to your account. If you did not add it, remove it in settings.",
+    "link": "https://github.com/settings/keys"
+   },
+   "question": "phishing",
+   "probs": {
+    "phishing": 0.17242729199689458,
+    "legitimate": 0.8275727080031053
+   }
+  },
+  {
+   "type": "email",
+   "input": {
+    "from": "ceo.office@company-mail.net",
+    "subject": "Urgent wire before 3pm",
+    "body": "I'm in a meeting, can't talk. Please wire $48,500 to the vendor below today and keep it confidential.",
+    "link": null
+   },
+   "question": "phishing",
+   "probs": {
+    "phishing": 0.947390186808554,
+    "legitimate": 0.05260981319144595
+   }
+  },
+  {
+   "type": "email",
+   "input": {
+    "from": "billing@notion.so",
+    "subject": "Your receipt from Notion Labs",
+    "body": "Thanks for your payment of $96.00 for Notion Plus (annual). View your invoice in Settings → Billing.",
+    "link": "https://www.notion.so/settings/billing"
+   },
+   "question": "phishing",
+   "probs": {
+    "phishing": 0.09577216829126131,
+    "legitimate": 0.9042278317087388
+   }
+  },
+  {
+   "type": "post",
+   "input": "You're all idiots and I hope your office burns down.",
+   "question": "action",
+   "probs": {
+    "allow": 2.6219421505782434e-05,
+    "allow with warning": 0.00028869757222353974,
+    "remove: harassment/threat": 0.9996700058993628,
+    "remove: spam": 1.507710690776734e-05
+   }
+  },
+  {
+   "type": "post",
+   "input": "This update is terrible, the new layout makes everything slower.",
+   "question": "action",
+   "probs": {
+    "allow": 0.8138897059533864,
+    "allow with warning": 0.180358491342593,
+    "remove: harassment/threat": 0.0009635935045692418,
+    "remove: spam": 0.004788209199451273
+   }
+  },
+  {
+   "type": "post",
+   "input": "DM me for cheap followers, 10k for $5, guaranteed!!!",
+   "question": "action",
+   "probs": {
+    "allow": 0.00024713376526217353,
+    "allow with warning": 0.0008721065224299636,
+    "remove: harassment/threat": 0.0006314293538740016,
+    "remove: spam": 0.9982493303584339
+   }
+  },
+  {
+   "type": "post",
+   "input": "Great tutorial, the part about caching finally made it click for me.",
+   "question": "action",
+   "probs": {
+    "allow": 0.9932440794825158,
+    "allow with warning": 0.00141969558033428,
+    "remove: harassment/threat": 7.851963591182708e-06,
+    "remove: spam": 0.005328372973558595
+   }
+  },
+  {
+   "type": "ask",
+   "input": "Where is my order #88213? It was supposed to arrive Monday.",
+   "question": "tool",
+   "probs": {
+    "search_web": 4.0087186368597296e-05,
+    "query_orders_db": 0.9860878088973702,
+    "send_email": 0.00013823623406827504,
+    "create_calendar_event": 1.2318733131036442e-05,
+    "ask_user_for_clarification": 0.013721548949061878
+   }
+  },
+  {
+   "type": "ask",
+   "input": "Set up a 30-minute sync with Dana next Tuesday afternoon.",
+   "question": "tool",
+   "probs": {
+    "search_web": 0.0009366716046310628,
+    "query_orders_db": 0.0008283072958138567,
+    "send_email": 0.024305821060298903,
+    "create_calendar_event": 0.4054091042439329,
+    "ask_user_for_clarification": 0.5685200957953233
+   }
+  },
+  {
+   "type": "ask",
+   "input": "What's the latest news on the EU AI Act enforcement?",
+   "question": "tool",
+   "probs": {
+    "search_web": 0.993279232465646,
+    "query_orders_db": 9.053625866585126e-05,
+    "send_email": 4.9887113059549695e-06,
+    "create_calendar_event": 1.7742628376397835e-05,
+    "ask_user_for_clarification": 0.006607499936006009
+   }
+  },
+  {
+   "type": "ask",
+   "input": "Can you handle the thing we discussed?",
+   "question": "tool",
+   "probs": {
+    "search_web": 3.817172385143398e-05,
+    "query_orders_db": 0.0011507477623398045,
+    "send_email": 0.00013998151028826204,
+    "create_calendar_event": 0.00010615650609439422,
+    "ask_user_for_clarification": 0.9985649424974261
+   }
+  }
+ ]
+}

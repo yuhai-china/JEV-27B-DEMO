@@ -1,0 +1,3 @@
+- **System 1** (0.99 ≥ 0.90, 149 ms): How much does the ball cost? → **$0.05**
+- **System 1** (1.00 ≥ 0.90, 119 ms): What should the customer get? → **store credit**
+- **System 1 unsure** (top “Thursday” at 0.32 < 0.90) → **System 2** (3.4 s, 311 tokens): Which weekday is 100 days from today? → **Thursday**

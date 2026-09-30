@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+JEV-27B/
+.gradio/
+*.log
