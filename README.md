@@ -22,6 +22,7 @@ This repository shows what that is good for, with real data and measured results
 | [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
 | [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
 | [08](08-biomedical-qa) | **Biomedical research questions** (PubMedQA) | **77.8%**, level with human experts (78.0%), zero-shot in one forward pass; above GPT-4's zero-shot 75.2% |
+| [09](09-multimodal-judge) | **Multimodal judge** (VL-RewardBench) | **78.3%**, #1 on the leaderboard: above Skywork-VL-Reward-7B (73.3), Gemini 2.0 Flash (68.8), GPT-4o (65.8) |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -37,6 +38,8 @@ This repository shows what that is good for, with real data and measured results
 ![images](assets/image_recommendation.png)
 
 ![pubmedqa](assets/pubmedqa.png)
+
+![multimodal judge](assets/multimodal_judge.png)
 
 ## Quick start
 
@@ -99,4 +102,4 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), PubMedQA (MIT), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), PubMedQA (MIT), VL-RewardBench (research use, downloaded at run time), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.

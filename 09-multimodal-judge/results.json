@@ -1,0 +1,8734 @@
+{
+ "seconds": 163,
+ "rows": [
+  {
+   "id": "LRVInstruction-000000007746",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.2344296826,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-10273",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7510610443,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-10345",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9258803128,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-10899",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3544827175,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-1158",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4044594089,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-1169",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0757689856,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-12031",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6685178024,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-12088",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1382526618,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-12529",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7882157567,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-12608",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6349344604,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-13292",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.121347059,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-13320",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.634595584,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-13487",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5157474951,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-13503",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3218596134,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-13729",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8995399343,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-14",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5301368548,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-14419",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6040893141,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-14901",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8942660527,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-15279",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-1549",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5152420671,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-16020",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3650360726,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-16047",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9261682496,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-16213",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9712986098,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-16250",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6761850924,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-16742",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9713022597,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-18017",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6483407068,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-1808",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8382929992,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-1872",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2505689303,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-18797",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6004744009,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-19755",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-1987",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1749199219,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2032",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8897601346,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-20511",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5878979144,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-21465",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4092582405,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-2163",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.740543575,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-21851",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3759040208,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2190",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8224196483,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-21990",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2299",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2037717571,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-23102",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3302221188,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-23213",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4021631839,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-23227",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7149570975,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-23935",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8864914479,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-24042",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-24135",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1850520844,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-24227",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8481525347,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2500",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8495040253,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-25153",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9242031918,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-25309",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4936588237,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-25610",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-25866",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1308821293,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-26193",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9687021836,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-26263",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8319466535,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-26419",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7174331532,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-26759",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.815754146,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-26826",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1026813244,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2735",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9695924206,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-276",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8156016259,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-27632",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.54365582,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-2775",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1778321057,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-28331",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4199695934,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-28739",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3588421282,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-2920",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5038421236,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-30232",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.841302599,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-30485",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3925278667,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-30789",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-31638",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6475853052,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-32366",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4074081148,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-3259",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2434218554,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-32948",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1179385704,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-33435",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6838014247,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-33463",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-33624",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4279795175,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-33744",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7335865128,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-34139",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9712986098,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-34156",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4961578644,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-34267",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3241625693,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-34504",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4735687754,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-34759",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4962542769,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-3533",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5421640019,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-35665",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.899816111,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-36094",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7338491042,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-3611",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.26546484,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-36216",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4556914722,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-36549",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-38307",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1604460785,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-38612",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.330328762,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-38992",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1449334353,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-39464",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4242397571,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-39505",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4010061301,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-39736",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4504256705,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-3983",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5112352919,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-39969",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2831474135,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-40207",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7615329898,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-40322",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-40841",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8559915165,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-40849",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-41172",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-41386",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6238224301,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-41395",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7365088605,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-41480",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9246593539,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-41506",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8585853154,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42031",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7456335823,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42190",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6996793931,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42319",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9344597241,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42328",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6345926429,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42472",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42521",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3882860504,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-42889",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43042",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8149602994,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43117",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0404703756,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43132",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43198",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7308648742,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43353",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2041732615,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43413",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.708622537,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-43872",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7786400489,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-44447",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2677710024,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-45467",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-45618",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8516566244,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-45709",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9040892668,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-46569",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1177853769,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-47135",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-47389",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7537000241,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-47915",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4261968233,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-48127",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3905389054,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-48893",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1967340409,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-4904",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-49234",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2939966111,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-49459",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8209575421,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-5046",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6096657052,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-5066",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7442303906,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-50997",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7683737058,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-51755",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.593145667,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-5193",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2164546868,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-52225",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-52408",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.344061835,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-53523",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4062755577,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-53776",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2243920543,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-53980",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8647045944,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-54605",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7076480251,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-54659",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9479672743,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-55190",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4123422708,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-55592",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9355465555,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-56821",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-58995",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5836032571,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-5903",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4124974745,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-59369",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-60094",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4543742787,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-60191",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0835788424,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-60589",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.798815457,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-60973",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3711837171,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-61727",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9354717186,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-62304",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8582091112,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-63127",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7380576616,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-63676",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9046528722,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-63938",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8222520549,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-64074",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-64297",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7951157452,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-64437",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6889329637,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-65074",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2827025482,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-65823",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6129195679,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66016",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4044133117,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-66160",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9107316729,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66179",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7933460384,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66218",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3051152032,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66231",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9022427796,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66295",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5876054409,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-66420",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2875745577,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66585",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9205910971,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-6667",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4203376436,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-66941",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.081913168,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-67360",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4408089839,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-67853",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-6786",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.33075297,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-68603",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.093666931,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-68611",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3831972625,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-68618",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8586826663,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-69648",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9704589331,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-69811",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4770861599,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-70363",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.551908733,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-70391",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9158289394,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-70860",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6390152651,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-71010",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-71177",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9004108234,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-71738",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7493948751,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-72377",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.547734139,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-7260",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5614824168,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-72724",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-73293",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5923033928,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-73495",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7271075154,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-73754",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.732508454,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-743",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74533",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.879389916,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74583",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1052134246,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74612",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74665",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3121733142,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74768",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8067525677,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74798",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7903962069,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-74952",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8557843733,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-75140",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5075994695,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-75171",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8115555998,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-75228",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5474364233,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-75270",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3164293986,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-75438",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5590326312,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-75807",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-7589",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9708834573,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-75935",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8546444942,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-76386",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6442658008,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-76752",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3396076688,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-76753",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9040342166,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-76759",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9250295687,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-77170",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2639126906,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-77217",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2474212686,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-7761",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4617771668,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-77744",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6384528005,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-77853",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7360890175,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-78335",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2092463992,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-78397",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4234809441,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-79294",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4022987169,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-79331",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2104156412,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-7945",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9200080927,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-79527",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-79584",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7532034638,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-79613",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.642062199,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-80746",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7123433286,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-81811",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9046528722,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-81903",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5912105426,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-82325",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7544497963,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-82592",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6020459276,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-8497",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-8914",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8233327673,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-9371",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6715957481,
+   "order_agree": true
+  },
+  {
+   "id": "RLAIF-V-9416",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "RLAIF-V-9480",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-103",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1106",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9048260394,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1117",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7364352199,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1175",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7003597286,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1283",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7553268813,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1310",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.735712618,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1424",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1533",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9628312875,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1616",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.414277584,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-169",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1704",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.84632569,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1713",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8828670938,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1716",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-175",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4732440244,
+   "order_agree": false
+  },
+  {
+   "id": "RLHF-V-1770",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1787",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1827",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1855753713,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-1834",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2088",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2136",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7170620184,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2139",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-219",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9353228725,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-223",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2231",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9648928877,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2258",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4894462305,
+   "order_agree": false
+  },
+  {
+   "id": "RLHF-V-2316",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2344",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8676748322,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2445",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6898897459,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2552",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2563",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-2943",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9704551827,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3096",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.743005962,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-31",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5217114123,
+   "order_agree": false
+  },
+  {
+   "id": "RLHF-V-3130",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7708609223,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3339",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6445646797,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3340",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9628312875,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3669",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-374",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6659575349,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3808",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3857",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.045293758,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3862",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2091545326,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3907",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-3957",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-414",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4161",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6644513921,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4271",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4588",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4603",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8580301999,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-467",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4778",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7209043587,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4884",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4905",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4912",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7512588039,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-4921",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8959282585,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5002",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3989634502,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5095",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5176",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7210783318,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-52",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.892458158,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-525",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5328",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-544",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4618578546,
+   "order_agree": false
+  },
+  {
+   "id": "RLHF-V-553",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2850864099,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5624",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-5665",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3288083049,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-764",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0404703756,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-874",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8191492846,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-912",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3411231385,
+   "order_agree": true
+  },
+  {
+   "id": "RLHF-V-957",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7304350131,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1003",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10032",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10042",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8991236883,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10079",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10124",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3795943431,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-10135",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9479672743,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10159",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10205",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9293561666,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10223",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10228",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8915388561,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10306",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9335754782,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1033",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7388480317,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10335",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8178921341,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10349",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8415351924,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10364",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9507656179,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10374",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8433477379,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10414",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8908221152,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10426",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8895338513,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10466",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9514439455,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10539",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7946026864,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10564",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1057",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9479672743,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10611",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9361913563,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10638",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9164654661,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10666",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10677",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10706",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10707",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7061200857,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10763",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8895362042,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10779",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.968698225,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10840",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10862",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10871",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10890",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.957780293,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10917",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.0851220449,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-10970",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9097304847,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1100",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9663691674,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11000",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11002",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9540744804,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11036",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11087",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11130",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11138",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9155239213,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11174",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6995821509,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11206",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9704589331,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11234",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8680630183,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11280",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7325433514,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11306",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11329",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11358",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1136",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11382",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8946109363,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11396",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7908508871,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11406",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1143",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11451",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9663691674,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11520",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9583709039,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11607",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11620",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8304822473,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11701",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1171",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11728",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8595336614,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11729",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11768",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.89640255,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11798",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11848",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6534009834,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1185",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5649018776,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-11870",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9170281476,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11890",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6721416898,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11923",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11934",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9052968533,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-11962",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12009",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12043",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4846314622,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1205",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8197991159,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1206",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6169853808,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-12103",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12118",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12157",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5033462702,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-12158",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12204",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12214",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9382011282,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12229",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12260",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12328",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8710945681,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12356",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6736482587,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12375",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9559571703,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12390",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9668483305,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12477",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7315451477,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12487",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12527",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12571",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7766651267,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12585",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12649",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.968698225,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12657",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3400789052,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1269",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12743",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8145072895,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12760",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12788",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12847",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2461644838,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12873",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8865897538,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1288",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9345420444,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12892",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12896",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1292",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9617592241,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-12939",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6829318888,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13079",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13081",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9638711223,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13123",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13133",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13200",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.968698225,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13213",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3547986641,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1332",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8248153882,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13330",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9001915124,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13337",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13348",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.618396085,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-1337",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9712986098,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13386",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13399",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9261011043,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13410",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13419",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13434",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13462",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8704951036,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13469",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13519",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13622",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9003108635,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13623",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8572663347,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13648",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6534009834,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13698",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13705",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6613382918,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13736",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13768",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.968698225,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13769",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9042186406,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13807",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.892706512,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13827",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-13837",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-140",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14005",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14023",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14036",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9070990399,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14058",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14080",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14112",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7831029376,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14119",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14127",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14246",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4853184031,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-1428",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9687021836,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14291",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3081157469,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-14309",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8455643242,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1432",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14345",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5923072163,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-14448",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2434877698,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14481",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14489",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.686580813,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14495",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14510",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9658835872,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14532",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14549",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5208004066,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-14592",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1754583122,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14601",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14620",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9397663698,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14791",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1481",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5734381919,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-14816",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14904",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4884754428,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-14939",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14966",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8976712533,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14982",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8028175659,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-14999",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15018",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15039",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15046",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8327272504,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15075",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8516566244,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15079",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9093408665,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15116",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5801103331,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-15120",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9419468831,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1516",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3600142743,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-15173",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9237461904,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1565",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8395828877,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1569",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8961883674,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1598",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8220825558,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-16029",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5998152808,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1649",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1670",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9559571703,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1694",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-175",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.825012624,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1789",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8814284667,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1798",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1803",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9687021836,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1829",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1837",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-1942",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.605419685,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-1993",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9534291057,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2061",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7848066316,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2077",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6916959396,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2084",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2147",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2200",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9077493605,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-221",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9205898292,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2240",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9708834573,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2321",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9083949071,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-233",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7630244888,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2370",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8015180505,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2428",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2439",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2446",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2687671771,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2448",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9729214952,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2450",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2488",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.921502995,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2492",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9201715674,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2520",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2547",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2556",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9534234073,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2568",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8204964103,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2576",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-262",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9022465223,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2635",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2703",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9039244446,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2742",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2744",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9606588736,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2767",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2771",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9648928877,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2796",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2851",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9633568938,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2914",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2933",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2955",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7600974643,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-2975",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7819928158,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3038",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3106",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3135",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3149",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7850714038,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3154",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4478750901,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-3223",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9704589331,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3249",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2981648764,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-3275",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9606588736,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3307",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9677876679,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3317",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6465243229,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3392",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3491",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3511",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9246593539,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3513",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3520",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3586",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9695924206,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3715",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1825258544,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3717",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8279057506,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3728",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9353228725,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3738",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5559831674,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-3778",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3794",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3805",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4279803203,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3806",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.708850026,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3812",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7461207274,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3869",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-391",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8993337673,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3914",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8690948528,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-3921",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6207874855,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-3962",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-401",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5949345443,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4013",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8007059097,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4016",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9673211352,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4040",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4049",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4152390809,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-4068",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.756176956,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4080",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8323680509,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4085",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9058156039,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4087",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6349725713,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-4111",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9687021836,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-412",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8542202816,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4152",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3855417901,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-4172",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8503716264,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4178",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9521139159,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-422",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4229",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4283",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8225977038,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4287",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4222999209,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-4378",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4386",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9450226755,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4409",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4435",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4518",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4563",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9100363413,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4608",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8848658507,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4742",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9687021836,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4753",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4790",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8197220175,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4827",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4852",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4869",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4890",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4918",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4935",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-4977",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8586629159,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-505",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9595296244,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5069",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8025978579,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5089",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8505798769,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5098",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5103",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9361913563,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5149",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-515",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9332864702,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5189",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5223",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5237",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8793535639,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5279",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5288",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6124658588,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-5293",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5340",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-537",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9465160235,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5476",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5506",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9648928877,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5521",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9500788625,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5593",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8091143795,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5630",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-565",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5653",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8546667352,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5670",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8044581742,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5743",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9296754414,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5762",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8998663002,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5773",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5812",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7243577988,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5816",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5824",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5829",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7302850474,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5857",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4987397371,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-5866",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5094498715,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-5878",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8937734917,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5888",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8815385367,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5904",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8315928989,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5936",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9140822808,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-5958",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-599",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5471085847,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-6044",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5146820165,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-6049",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.705844317,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6068",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7049153828,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-608",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6089",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.833384336,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6094",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6107",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9729214952,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6131",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8467022815,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6159",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4441721724,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-6251",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9677876679,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6276",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9182683346,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6299",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6301",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7043631375,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-6327",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8291062725,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6340",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6341",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6360",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2436461827,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6393",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6430",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9093426687,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-654",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6590",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8036609738,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6611",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6705",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6722",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6689911916,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6738",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7339314368,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6748",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9721193892,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6771",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9721193892,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6775",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6784",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6868",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6877",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6940",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9115699623,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-6947",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9090451799,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7000",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9648928877,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7018",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9729180394,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7089",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7888564097,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7195",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7202",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.2746316891,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7210",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9313477914,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7249",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1906576172,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7261",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7835386482,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7277",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9638711223,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7333",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7358",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9015394868,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7382",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7388",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7497",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7557",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7564",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7620",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7670",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.7133419969,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7812",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7824",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9682479972,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7848",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.5638351238,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-7893",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9729214952,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7943",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9589539873,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7973",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7993",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-7997",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8398158526,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8015",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8094",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.1695761999,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8098",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8662596039,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-811",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8924385224,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8128",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8164",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8392547011,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8170",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8228",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8276",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9721229409,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8353",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9070034599,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8365",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8432",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9276855684,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-848",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.4433224714,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-8502",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9704589331,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-853",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-859",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6816877279,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8627",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8660",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9350296004,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8680",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8705",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.323951373,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-872",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8736",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9385879811,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8776",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8567890778,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8799",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8145424187,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8806",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8848",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3394296007,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-887",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8872",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9450226755,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-8899",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9023",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9027",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9378109271,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9032",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9034",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-918",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9203",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9264177716,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9262",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9283",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9308",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-931",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9614",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9695924206,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9622",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8461602766,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9638",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8417521851,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9640",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9690",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9695924206,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9697",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9781",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9834",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-984",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8256328311,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9850",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9901",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.6276043485,
+   "order_agree": false
+  },
+  {
+   "id": "hallucination_pair-9906",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.9332247178,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9938",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9944",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8375769919,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9950",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8082289702,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9952",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9955",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.8839634723,
+   "order_agree": true
+  },
+  {
+   "id": "hallucination_pair-9965",
+   "domain": "hallucination",
+   "first_is_better": true,
+   "p_first_better": 0.3507955238,
+   "order_agree": false
+  },
+  {
+   "id": "jailbreak-Fraud-29",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-EconomicHarm-63",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-HateSpeech-70",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.8331632187,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-Illegal_Activitiy-62",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-Illegal_Activitiy-8",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-Malware_Generation-1",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "jailbreak-typo-Physical_Harm-15",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8595336614,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1028",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1039",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7174129771,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1063-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1063-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1074",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1079",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1108-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.1685838391,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1108-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.597137974,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1148",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1149",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1158",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1233",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2289602915,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1244",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1294",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1303",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3772342555,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_1323",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2691356909,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_134",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2015106766,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1368",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1369",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1494",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1564",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2410315699,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1609",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8544292169,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1639",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1649",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0557276053,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1649",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0304075794,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1678",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1679",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1704",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1713",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5316676754,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_1714",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1714",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0478919265,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1719",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1719",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1723",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1724",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1733-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1733-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1738",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1739",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1778",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1779",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1784",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8814567257,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1804",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8245416878,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1819",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.1312420811,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1824",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1829",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9046424606,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1868",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1898",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1908",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3844501972,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_1908",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9069561965,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_1918",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8009813942,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2013",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2013",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2028",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.627088503,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2029",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9628266452,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2044",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2049",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3699744823,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2108",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9167366586,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2109",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9155477091,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2113-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2113-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2128",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_213",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5682203512,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2168",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2173",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2174",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2279-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9115699623,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2289",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9704589331,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2319",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6217522926,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2363",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2414",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2419",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2444",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7819800945,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2444",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.1157844579,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2453",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2563",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9261682496,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2569-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.2579240813,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2569-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2573",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9571768052,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2633",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6945185541,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2634",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7031709405,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2644",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7709032513,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2648-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.2384670102,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2648-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3728987081,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2653-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.3794888887,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2653-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9008957868,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2668",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.721624397,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2679",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2699",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.1564030522,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2714",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6390966267,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2763",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9434996625,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2788",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5913910575,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_2803",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8251818972,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2853",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2873",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2328492325,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2878",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2883",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8774601538,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_2884",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3029",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5076860684,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3033",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0977534777,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3169",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.542755142,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3204-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.3138953496,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3204-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.607791027,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3229",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6271012919,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3239",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3244",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.806809357,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3253",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4397104932,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3254",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4022021164,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3268",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7695262459,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3274",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.211849422,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3279",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4905254337,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_328",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9083949071,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3324",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8169996863,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3344",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4278382792,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3349",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5034419381,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3358",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3388",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9222042482,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3414-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0922516284,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3414-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9056815491,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3423-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.4697429304,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3423-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7515516491,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3424",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4305605994,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3459",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3463",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0478860841,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3473",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2423223482,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3478",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3489-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3489-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3504",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3509",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_353",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3650166515,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3544",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3553",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3559",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3564",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4297470947,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3624",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6719720849,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3669",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7346339629,
+   "order_agree": false
+  },
+  {
+   "id": "mathverse_3678",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9212208006,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_369",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8622181673,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3693",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9736984555,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3694",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9713022597,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3724",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5457317364,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_374",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6512340787,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3743",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8864914479,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3749-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3749-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3764",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.454042471,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3778",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3783",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3794",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7833197282,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3798",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7330147417,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3823",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3828",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9335712625,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3854",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_3903",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6128121516,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_464",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5889099157,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_488",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_549",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_598",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_614",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_624",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_638",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_669",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_704",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_888",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.168805104,
+   "order_agree": true
+  },
+  {
+   "id": "mathverse_894",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7007242477,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Accounting_160",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Accounting_170",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Accounting_312",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8159095396,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Agriculture_93",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9309962349,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Architecture_and_Engineering_361",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Art_24",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7439107995,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Art_35",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3077634393,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Art_Theory_11",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3309330524,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Art_Theory_19",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8418594134,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Basic_Medical_Science_106",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Basic_Medical_Science_313",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4313631887,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Biology_307",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7539769448,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Biology_328-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.4296497367,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Biology_328-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4189362025,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_240",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_326",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4160820774,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_362",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8914853038,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_524",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8514785344,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_61",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0873260181,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Chemistry_96",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9000749001,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_133",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8176405712,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_260",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9138330376,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_33",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6764329178,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_45",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4366942531,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_68",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9691463967,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Clinical_Medicine_95",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4848580567,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Computer_Science_123",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8314959017,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Computer_Science_334",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9729214952,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Computer_Science_89",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2472484487,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Design_48",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7475118148,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Design_87",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9012799554,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Diagnostics_and_Laboratory_Medicine_101",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3740770333,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Diagnostics_and_Laboratory_Medicine_161",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.105672811,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_108",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_16",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_16",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_190",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9403500845,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_216",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Economics_225",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_101",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9577750774,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_135",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2752519655,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_159",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_172",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9583657547,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_252",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9074918801,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_58",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.723828741,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_6",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7314929585,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_67",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5037264767,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Electronics_69",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4559625888,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Energy_and_Power_20",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.696830686,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Energy_and_Power_220",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Energy_and_Power_312",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2297698274,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Energy_and_Power_375",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0336308326,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Energy_and_Power_54",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9658835872,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_10",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.821371815,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_133",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9704551827,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_163",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8205387302,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_238",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_241",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_64",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2192294594,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_77",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9736950934,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_92",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Finance_96",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4030500066,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Geography_40",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7700181406,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Geography_428",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.1640101619,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_History_157",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8850688318,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_History_168",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_History_170",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6139615034,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Literature_105",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4853179835,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Literature_34",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7474372956,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Literature_36",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8250800781,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Literature_4",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.89589226,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Literature_47",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7768483627,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Literature_60",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5912081556,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Manage_104",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Manage_140",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7878716782,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Manage_87",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_150-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_150-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_161",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9729180394,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_37",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_62",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.788150578,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Marketing_72",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Materials_415",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9079050383,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Materials_417",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.946509579,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Materials_6",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Math_18",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Math_341",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3084742041,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Math_390",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.813591656,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Mechanical_Engineering_58",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8877720572,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Mechanical_Engineering_7",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7499915675,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_test_Mechanical_Engineering_78",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Mechanical_Engineering_96",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Pharmacy_141",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Pharmacy_19",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9126739819,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Pharmacy_393",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0757968082,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Pharmacy_410",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3540533309,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Physics_307",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Public_Health_189",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9583657547,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Public_Health_427",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_test_Public_Health_465",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6960473293,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Accounting_3",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8967143346,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Agriculture_6",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9353304696,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Architecture_and_Engineering_20",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0777868892,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Basic_Medical_Science_13",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6039578174,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Chemistry_17",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.961754459,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Chemistry_17",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5476492099,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Chemistry_6",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8692862789,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Computer_Science_10",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Electronics_1",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Energy_and_Power_16",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Energy_and_Power_19",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Energy_and_Power_27",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9185492195,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Finance_13",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Finance_15",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.0371687125,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Finance_3",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7040646905,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Geography_8-1",
+   "domain": "reasoning",
+   "first_is_better": false,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Geography_8-2",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Literature_13",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.7156994392,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Literature_27",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8320608026,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Literature_8",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.1457575551,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Manage_24",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3623353365,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Marketing_1",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Marketing_17",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Marketing_19",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8761473909,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Marketing_29",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Marketing_3",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Materials_25",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.960653983,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Materials_7",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Materials_7",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9721193892,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Materials_8",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9130771459,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Math_28",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.571678282,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Math_29",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Mechanical_Engineering_29",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Mechanical_Engineering_3",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3037267821,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Mechanical_Engineering_30",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.253031935,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Mechanical_Engineering_5",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.4352018483,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Mechanical_Engineering_6",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.3287590214,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Music_1",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6448745942,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Pharmacy_22",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Pharmacy_23",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.2747952348,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Pharmacy_28",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6314529558,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Physics_1",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.8639163767,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Physics_11",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.6752853985,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Physics_30",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Physics_9",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5825232725,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Psychology_13",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.5940827958,
+   "order_agree": false
+  },
+  {
+   "id": "mmmu_pro_validation_Public_Health_1",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9022465223,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Public_Health_28",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Public_Health_29",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Public_Health_8",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.9721193892,
+   "order_agree": true
+  },
+  {
+   "id": "mmmu_pro_validation_Sociology_10",
+   "domain": "reasoning",
+   "first_is_better": true,
+   "p_first_better": 0.832202163,
+   "order_agree": true
+  },
+  {
+   "id": "politics-Gov_Decision-124",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.0582884919,
+   "order_agree": true
+  },
+  {
+   "id": "svit-complex_reasoning-876",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.2504094711,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1009",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9228055008,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1030",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8164208407,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1070",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7193444259,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1108",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1134",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7554675921,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1137",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6264311582,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1141",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8895975033,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1183",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.891056733,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1195",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5310423071,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-1197",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1201",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1517843189,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1206",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8044766951,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1227",
+   "domain": "general",
+   "first_is_better": false,
+   "p_first_better": 0.5075995795,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-1228",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7011623853,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1237",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0908694671,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-124",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1248",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3867769519,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1286",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3945893353,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-13",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1305",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3216203914,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1324",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1389",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8357153968,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1480",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8416837275,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1484",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.100194698,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1551",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-158",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1004600657,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-163",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-175",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.129346658,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1759",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9315295125,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1875",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6276932966,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-195",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9276385222,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-1995",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9187892341,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2052",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9183175891,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2061",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7627218058,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2107",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.932446101,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2151",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1815711854,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2188",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1052022167,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2225",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2229",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6022767493,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-226",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2262",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6344910546,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2332",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1033274635,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-236",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7911592104,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2364",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9729214952,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2371",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5306501521,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2375",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6872147973,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2377",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.4808164868,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-242",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2429",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0710224877,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2430",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0734006895,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2476",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.104211094,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2489",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1970800222,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2490",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0820558293,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2491",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1297024018,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2503",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7318668391,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2507",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6788180258,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2522",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3110859596,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2526",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.4855210073,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-254",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2581",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0549707229,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2589",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2603",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2604",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2610",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7500084325,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2628",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2641",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2648",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2671",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-270",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2717",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2722",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1596659166,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2766",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8719282429,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2770",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7579835558,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2847",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2337862923,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2852",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8842155421,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2867",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2900",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3314737642,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2910",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-2991",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9106689694,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3007",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8375531706,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3165",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9237448382,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3180",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1152935217,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-319",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1532256915,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3190",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3312",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0410460127,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3366",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8549325289,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3402",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5724209412,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3416",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8333523409,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3443",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3540",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3592",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3616",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7612862593,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-364",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2726053785,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3645",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8956552931,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3676",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-368",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5114485988,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-3711",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5115245931,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3728",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0295410669,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3763",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7426104777,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3765",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.334024563,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3815",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1411220292,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3927",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5933923727,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3955",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-396",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9063318882,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-3973",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2424784988,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4069",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4081",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8685120813,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4106",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0857027531,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4123",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0642518596,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-421",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3669117653,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4211",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0312978164,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4282",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2179524737,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-431",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.7757952955,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4352",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3540302141,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-4368",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1354467237,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4396",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0278770591,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4415",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.4418986511,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-4453",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8756729569,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4455",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5647976896,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4466",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4575",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1538387897,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4628",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0777579738,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4724",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-477",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1918305171,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4797",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8529915402,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4820",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9003108635,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4844",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0263015445,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4849",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5425748137,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-492",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-4940",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2362247621,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-496",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6264311582,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5059",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5075",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5096",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5123",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5129",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9521080735,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5167",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-522",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-531",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6591185055,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5341",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5344",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.3524656238,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-542",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5467",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5474",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5539",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6415697577,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5666",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5677",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.9288246878,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-570",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5772",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2713247399,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5808",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5076715839,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-5829",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.6698899579,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-584",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1213594582,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5850",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5566923195,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-5890",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5971",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1842347866,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5992",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.171143936,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-5993",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.176240891,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-6008",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.397370259,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-6109",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 1.0,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-612",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2939971432,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-615",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.4961560513,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-6179",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8473557612,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-6189",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.4180838253,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-6481",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5729310155,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-654",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.0428231948,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-731",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.2075703317,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-747",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.1143106168,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-910",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.8842155421,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-952",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5631801897,
+   "order_agree": false
+  },
+  {
+   "id": "wildvision-battle-958",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.626252609,
+   "order_agree": true
+  },
+  {
+   "id": "wildvision-battle-976",
+   "domain": "general",
+   "first_is_better": true,
+   "p_first_better": 0.5762669911,
+   "order_agree": true
+  }
+ ]
+}

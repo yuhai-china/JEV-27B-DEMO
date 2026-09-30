@@ -11,6 +11,9 @@ recommender built from tens of thousands of users' behaviour.
 
 **TL;DR**
 
+* **The best multimodal judge on VL-RewardBench:** shown an image, a question and two answers, it picks the better
+  answer **78.3%** of the time, the highest on the official leaderboard, ahead of the purpose-trained Skywork-VL-Reward-7B
+  (73.3%), Gemini 2.0 Flash (68.8%) and GPT-4o (65.8%). Best of all at catching visual hallucinations (83.2%).
 * **Zero-shot image recommendation:** looking only at video covers, JEV-27B-VL ranks what a user will watch next as well as
   collaborative filtering learned from **59,045 users' watch histories** (AUC 0.727 vs 0.728), with a higher top-5 hit rate
   (59% vs 49%), and without any interaction data.
@@ -29,6 +32,29 @@ recommender built from tens of thousands of users' behaviour.
 
 Nothing to parse and no prompt gymnastics: you ask *"Is this scenario one where the user clicks this video?"* and get
 `{"true": 0.83, "false": 0.17}`.
+
+## It judges images better than anything on the leaderboard
+
+Training and evaluating vision-language models needs a judge: of two answers about an image, which one is right, and which one
+describes things that are not there? [VL-RewardBench](https://vl-rewardbench.github.io) (CVPR 2025) tests exactly that with
+1,247 human-verified pairs: real users' questions, visual hallucination detection, and multimodal knowledge and math. Its
+authors note that even GPT-4o gets only about two thirds right.
+
+JEV-27B-VL answers each pair in one forward pass per ordering, with no training on images:
+
+![VL-RewardBench](https://huggingface.co/autotrust/JEV-27B-VL/resolve/main/multimodal_judge.png)
+
+| judge | general | hallucination | reasoning | **overall** |
+|---|---:|---:|---:|---:|
+| **JEV-27B-VL** | 58.0 | **83.2** | **78.2** | **78.3** |
+| Skywork-VL-Reward-7B (trained reward model) | **65.6** | 80.2 | 61.3 | 73.3 |
+| Gemini 2.0 Flash | 50.8 | 72.6 | 70.1 | 68.8 |
+| Gemini 1.5 Pro | 50.8 | 72.5 | 64.2 | 67.2 |
+| GPT-4o | 49.1 | 67.6 | 70.5 | 65.8 |
+| Claude 3.5 Sonnet | 43.4 | 55.0 | 62.3 | 55.3 |
+
+That is the highest overall accuracy on the official leaderboard (26 models, last updated May 2025): 5 points above the best
+purpose-trained reward model and 12.5 points above GPT-4o. All 2,494 judgements took 163 seconds on one GPU.
 
 ## It sees: zero-shot image recommendation
 
