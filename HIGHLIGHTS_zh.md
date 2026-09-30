@@ -107,3 +107,189 @@
 |---|---|
 | ![试玩](assets/app_playground.png) | ![搜索](assets/app_search.png) |
 | ![System 1 到 System 2](assets/app_system1_to_2.png) | ![钓鱼识别](assets/agent_phishing.png) |
+
+---
+
+## 切换 API 服务
+
+所有演示和网页应用都通过 `common/jev_client.py` 调用模型。切换服务只需设置环境变量，代码不用改。
+
+| | 自建 vLLM 服务（默认） | 托管 API 服务 |
+|---|---|---|
+| 启动 / 地址 | `bash common/serve_jev27b.sh`，默认 `http://localhost:8000` | `https://jev-h200.scienceguru.ai/v1` |
+| 需要的环境变量 | 不需要（地址不同时设 `JEV_URL`） | `JEV_URL` 和 `JEV_API_KEY` |
+| System 1（决策） | `/v1/completions` + `jev-decision` LoRA，客户端自己算概率 | `POST /v1/decide`，服务端直接返回概率 |
+| System 2（对话） | `/v1/chat/completions` | `/v1/chat/completions`，推理过程在 `message.reasoning` 里 |
+| 认证 | 无 | 请求头 `Authorization: Bearer <API Key>` |
+
+**切换到托管服务：**
+
+```bash
+export JEV_URL="https://jev-h200.scienceguru.ai/v1"
+export JEV_API_KEY="<你的 API Key>"
+
+python 01-search-ranking/demo.py      # 任一演示照常运行
+python app/app.py                     # 网页应用照常运行
+```
+
+**切回自建服务：**
+
+```bash
+unset JEV_API_KEY
+export JEV_URL="http://localhost:8000"   # 或者直接 unset JEV_URL
+```
+
+规则：设置了 `JEV_API_KEY` 就自动走托管服务的 `/v1/decide`，没有设置就走自建 vLLM。需要手动指定时，可以设 `JEV_BACKEND=decide` 或 `JEV_BACKEND=vllm`。
+
+> API Key 只放在环境变量里，不要写进代码、文档或提交到仓库。
+
+---
+
+## JEV-27B API 接入说明
+
+| 项 | 值 |
+|---|---|
+| Base URL | `https://jev-h200.scienceguru.ai/v1` |
+| API Key | 向服务管理员索取（下文用 `<你的 API Key>` 表示） |
+| 认证方式 | 请求头 `Authorization: Bearer <API Key>`，缺少或错误都会返回 401 |
+| 模型名 | `autotrust/JEV-27B` |
+| 接口 | 兼容 OpenAI：`/v1/chat/completions`、`/v1/completions`、`/v1/models`；另有决策接口 `/v1/decide` |
+| 上下文上限 | 32,768 token（输入加输出） |
+
+### 0. 准备
+
+下面的示例都从环境变量读取 Key。Python 示例需要先安装依赖：
+
+```bash
+export JEV_API_KEY="<你的 API Key>"
+pip install openai requests
+```
+
+### 1. 对话与生成（System 2）
+
+```bash
+curl https://jev-h200.scienceguru.ai/v1/chat/completions \
+  -H "Authorization: Bearer $JEV_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "autotrust/JEV-27B",
+    "messages": [{"role": "user", "content": "In one sentence, what is safety stock?"}],
+    "max_tokens": 256,
+    "chat_template_kwargs": {"enable_thinking": false}
+  }'
+```
+
+- **思考模式**：把 `enable_thinking` 设为 `true`，模型会先逐步推理再作答。推理过程在 `choices[0].message.reasoning` 里，正式回答在 `content` 里。开思考时建议把 `max_tokens` 调大，比如 2048 以上。建议每次请求都显式传 `enable_thinking`。
+- **流式输出**：加上 `"stream": true`。
+- **工具调用**：按 OpenAI 格式传 `tools` 即可。
+
+Python（OpenAI SDK）：
+
+```python
+import os
+from openai import OpenAI
+
+client = OpenAI(base_url="https://jev-h200.scienceguru.ai/v1", api_key=os.environ["JEV_API_KEY"])
+r = client.chat.completions.create(
+    model="autotrust/JEV-27B",
+    messages=[{"role": "user", "content": "What is 17*23? Reply with the number only."}],
+    max_tokens=256,
+    extra_body={"chat_template_kwargs": {"enable_thinking": False}},
+)
+print(r.choices[0].message.content)
+```
+
+### 2. 决策（System 1）：`POST /v1/decide`
+
+这个接口不生成文字。模型读一遍输入，直接返回各选项的校准概率，适合做判断和分类。
+
+| 字段 | 必填 | 说明 |
+|---|---|---|
+| `kind` | 是 | `noul`（是或否）、`choice`（多选一）、`score`（0 到 5 打分） |
+| `state` | 是 | 情境描述，必须是字符串（结构化数据请先转成 JSON 字符串） |
+| `question` | 是 | 要判断的问题 |
+| `options` | 看 `kind` | `noul`：不用传，固定为 `["false","true"]`，说明性内容请写进 `question`。`score`：不用传，固定为 `"0"` 到 `"5"`。`choice`：至少 2 个，最多 256 个 |
+
+- **选项超过 16 个时**：会自动改成对每个选项单独判断是否成立。这时返回的概率只能用来比较高低，不是严格校准过的分布。
+
+**是或否（noul）：**
+
+```bash
+curl https://jev-h200.scienceguru.ai/v1/decide \
+  -H "Authorization: Bearer $JEV_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "kind": "noul",
+    "state": "The invoice total is 1,240 USD and the purchase order approved 1,200 USD.",
+    "question": "Does the invoice exceed the approved amount?"
+  }'
+```
+
+**多选一（choice）：**
+
+```bash
+curl https://jev-h200.scienceguru.ai/v1/decide \
+  -H "Authorization: Bearer $JEV_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "kind": "choice",
+    "state": "SKU AX-330 stock at 8% of safety level; supplier late twice this quarter.",
+    "question": "Supplier response for this scenario.",
+    "options": ["issue_warning", "renegotiate", "dual_source", "maintain"]
+  }'
+```
+
+**打分（score）：**
+
+```bash
+curl https://jev-h200.scienceguru.ai/v1/decide \
+  -H "Authorization: Bearer $JEV_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "kind": "score",
+    "state": "The answer cites two sources, one of which does not support the claim.",
+    "question": "Rate the factual support of the answer."
+  }'
+```
+
+**返回示例**（choice，概率已四舍五入）：
+
+```json
+{
+  "kind": "choice",
+  "options": ["issue_warning", "renegotiate", "dual_source", "maintain"],
+  "probabilities": [0.248, 0.126, 0.625, 0.001],
+  "choice_index": 2,
+  "choice": "dual_source",
+  "model": "autotrust/JEV-27B",
+  "usage": {"prompt_tokens": 70, "completion_tokens": 1, "total_tokens": 71}
+}
+```
+
+`probabilities` 的顺序和 `options` 一致，`choice` 是概率最高的那个选项。
+
+Python（requests）：
+
+```python
+import os, requests
+
+r = requests.post(
+    "https://jev-h200.scienceguru.ai/v1/decide",
+    headers={"Authorization": f"Bearer {os.environ['JEV_API_KEY']}"},
+    json={
+        "kind": "choice",
+        "state": "SKU AX-330 stock at 8% of safety level; supplier late twice this quarter.",
+        "question": "Supplier response for this scenario.",
+        "options": ["issue_warning", "renegotiate", "dual_source", "maintain"],
+    },
+    timeout=60,
+)
+r.raise_for_status()
+d = r.json()
+print(d["choice"], dict(zip(d["options"], d["probabilities"])))
+```
+
+### 3. 注意事项
+
+- **概率会有小幅波动**：同一个输入多次请求，概率可能在第三位小数上略有不同。模型卡（HF `autotrust/JEV-27B` README）说明这是 vLLM 用 bf16 计算、并受同批请求影响造成的，属于正常现象。实测本服务与另一台生产机对同样 3 个用例给出的选项完全相同，概率最多相差 1.2e-3。
+- **容量参考**：服务跑在单张 H200 上。2026-09-30 实测条件：流式对话，每个请求输出 256 token，关闭思考，temperature 0。10 个并发时合计 583 token/秒，每个请求约 60 token/秒。决策为 noul 短输入：10 个并发时 106 次/秒，32 个并发时 177 次/秒。实际数值会随输入长度和并发变化。

@@ -38,6 +38,16 @@ python app/app.py                          # web app on http://localhost:7860
 
 Set `JEV_URL` if the server is not on `localhost:8000`.
 
+**Using a hosted JEV API instead of your own GPU:** set the URL and key, then run any demo or the app unchanged.
+
+```bash
+export JEV_URL="https://jev-h200.scienceguru.ai/v1"
+export JEV_API_KEY="<your API key>"      # System 1 then uses POST /v1/decide; all requests send the Bearer key
+```
+
+Setting `JEV_API_KEY` selects the hosted backend automatically; `JEV_BACKEND=vllm|decide` overrides it. Details (Chinese):
+[HIGHLIGHTS_zh.md → 切换 API 服务](HIGHLIGHTS_zh.md#切换-api-服务).
+
 ## The whole API
 
 ```python

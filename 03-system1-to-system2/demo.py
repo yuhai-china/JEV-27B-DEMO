@@ -15,13 +15,10 @@ CommonsenseQA; data/questions.json):
 """
 import concurrent.futures as cf, json, os, re, sys, time
 
-import requests
-
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, "..", "common"))
 from charts import JEV, BASE, ALT, WARN, style  # noqa: E402
-import jev_client  # noqa: E402
-from jev_client import decide, split_thinking  # noqa: E402
+from jev_client import chat_raw, decide, reply_parts  # noqa: E402
 
 QS = json.load(open(os.path.join(HERE, "data", "questions.json")))
 OUT = os.path.join(HERE, "results.json")
@@ -36,10 +33,8 @@ def s2_prompt(q, opts, context=""):
 
 def system2(q, opts, context=""):
     t = time.time()
-    r = requests.post(f"{jev_client.URL}/v1/chat/completions", json={
-        "model": jev_client.REPO, "messages": [{"role": "user", "content": s2_prompt(q, opts, context)}], "max_tokens": 8000,
-        "temperature": 0.6, "top_p": 0.95, "chat_template_kwargs": {"enable_thinking": True}}, timeout=1800).json()
-    reasoning, final = split_thinking(r["choices"][0]["message"]["content"])
+    r = chat_raw(s2_prompt(q, opts, context), thinking=True, max_tokens=8000, top_p=0.95)
+    reasoning, final = reply_parts(r)
     m = re.findall(r"Answer:\s*\**\(?([A-P])\b", final) or re.findall(r"\b([A-P])\)?\s*$", final.strip())
     pick = L.index(m[-1]) if m and L.index(m[-1]) < len(opts) else None
     return {"pick": pick, "seconds": time.time() - t, "tokens": r["usage"]["completion_tokens"], "final": final[-300:]}
