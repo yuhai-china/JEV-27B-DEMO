@@ -25,6 +25,7 @@ agent = load("02-agent-decisions", "demo")
 s12 = load("03-system1-to-system2", "demo")
 judge_mod = load("04-response-judge", "demo")
 guard = load("05-hallucination-guard", "demo")
+newsrec = load("06-news-recommendation", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -123,6 +124,38 @@ def guarded_answer(question, threshold):
     return shown, {"answer is correct": p, "answer is wrong": 1 - p}, info
 
 
+
+# ---------------------------------------------------------------- zero-shot news recommendation
+_mind = {}
+
+
+def mind():
+    if not _mind:
+        db, news = newsrec.load_eval_day()
+        ex = newsrec.eligible(db).sample(newsrec.N_EVAL, random_state=0)
+        ex = ex[ex.imps.str.len().between(12, 30)]
+        cache = json.load(open(os.path.join(ROOT, "06-news-recommendation", "jev_scores.json")))
+
+        def best_rank(r):  # showcase impressions where the cached zero-shot ranking put a clicked article near the top
+            sc = sorted(((cache.get(f"eval:{r.iid}:{x[:-2]}", 0), x.endswith("-1")) for x in r.imps), reverse=True)
+            return min(i for i, (_, y) in enumerate(sc) if y)
+        ex = ex.assign(best=[best_rank(r) for r in ex.itertuples()]).sort_values(["best", "iid"]).head(12)
+        _mind.update(db=db, news=news, choices={f"impression {r.iid} · user {r.uid} · {len(r.imps)} candidates": int(r.iid) for r in ex.itertuples()})
+    return _mind
+
+
+def recommend(choice):
+    m = mind()
+    history, ranked, secs = newsrec.rank_impression(m["db"], m["news"], m["choices"][choice])
+    news = m["news"]
+    df = pd.DataFrame([{"#": i + 1, "P(click)": round(p, 2), "clicked": "✅" if y else "", "category": f"{news.loc[n, 'cat']} › {news.loc[n, 'sub']}",
+                        "title": news.loc[n, "title"]} for i, (p, n, y) in enumerate(ranked)])
+    clicked = [i + 1 for i, (_, _, y) in enumerate(ranked) if y]
+    info = (f"**{len(ranked)} candidates scored in {secs:.1f} s, zero-shot** (JEV was never trained on MIND or on any click data). "
+            f"The article(s) this user actually clicked landed at rank **{', '.join(map(str, clicked))}** of {len(ranked)}.")
+    return "\n".join(f"- {h}" for h in history), df, info
+
+
 with gr.Blocks(title="JEV-27B demo") as demo:
     gr.Markdown(INTRO)
     with gr.Tab("System 1 playground"):
@@ -207,6 +240,17 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                 hprob = gr.Label(label="System 1 check")
                 hinfo = gr.Markdown()
         b.click(guarded_answer, [hq, ht], [hshown, hprob, hinfo])
+    with gr.Tab("News recommendation (zero-shot)"):
+        gr.Markdown("Real users from the Microsoft News Dataset (MIND), 15 Nov 2019. JEV-27B reads the headlines a user clicked recently and "
+                    "scores every article shown to them. **Zero-shot: no training on MIND, no click data.**")
+        nc = gr.Dropdown(label="user impression", choices=[], allow_custom_value=False)
+        b = gr.Button("Recommend", variant="primary")
+        ninfo = gr.Markdown()
+        with gr.Row():
+            nh = gr.Markdown(label="recently clicked")
+            nt = gr.Dataframe(wrap=True, column_widths=["5%", "10%", "9%", "22%", "54%"])
+        b.click(recommend, nc, [nh, nt, ninfo])
+        demo.load(lambda: gr.update(choices=list(mind()["choices"]), value=list(mind()["choices"])[0]), None, nc)
 
 if __name__ == "__main__":
     demo.queue(default_concurrency_limit=16).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)))

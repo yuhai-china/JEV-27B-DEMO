@@ -4,3 +4,4 @@ __pycache__/
 JEV-27B/
 .gradio/
 *.log
+06-news-recommendation/features.json

@@ -19,6 +19,7 @@ This repository shows what that is good for, with real data and measured results
 | [03](03-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
 | [04](04-response-judge) | **Response judge** / reward model | RewardBench **89.9** in one forward pass, ahead of GPT-4o (86.7), Gemini 1.5 Pro (88.2), Claude 3.5 Sonnet (84.2) as judges |
 | [05](05-hallucination-guard) | **Hallucination guard** | answer only the half System 1 trusts: accuracy **71% → 96%** (System 2's own confidence: 87%) |
+| [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -28,6 +29,8 @@ This repository shows what that is good for, with real data and measured results
 ![judge](assets/judge_rewardbench.png)
 
 ![guard](assets/hallucination_guard.png)
+
+![news](assets/news_recommendation.png)
 
 ## Quick start
 
@@ -79,8 +82,9 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 | ![playground](assets/app_playground.png) | ![search](assets/app_search.png) |
 | ![escalation](assets/app_system1_to_2.png) | ![phishing](assets/agent_phishing.png) |
 | ![judge](assets/app_judge.png) | ![guard](assets/app_guard.png) |
+| ![news](assets/app_news.png) | |
 
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0).
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), MIND (Microsoft Research License Terms, downloaded at run time, not redistributed).
