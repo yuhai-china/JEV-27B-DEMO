@@ -10,6 +10,8 @@ vLLM engine:
 
 This repository shows what that is good for, with real data and measured results.
 
+中文亮点说明：[HIGHLIGHTS_zh.md](HIGHLIGHTS_zh.md)
+
 | # | demo | headline result |
 |---|---|---|
 | [01](01-search-ranking) | **Search re-ranking** | nDCG@10 on TREC-COVID **0.858** vs 0.793 for bge-reranker-v2-m3 and 0.623 for BM25 |
