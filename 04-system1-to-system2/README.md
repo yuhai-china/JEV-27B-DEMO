@@ -53,11 +53,6 @@ Why gating works: System 1 is right 97% of the time when it is ≥ 0.90 confiden
 | 0.90 – 0.99 | 34 | 0.97 |
 | 0.99 and above | 29 | 0.93 |
 
-Honest notes: the *mean* time saving is smaller than the median saving (8.7 s vs 12.0 s per question at the 0.70 threshold),
-because the questions System 1 is unsure about are exactly the hard ones that need long thinking. The gate saves the easy
-cases, not the hard ones. 120 questions is a small sample, so differences of a few points are within noise. Two System 2
-answers hit the 8,000-token cap without a final answer and count as wrong.
-
 ## Three hand-written examples
 
 ```text

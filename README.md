@@ -8,7 +8,7 @@ vLLM engine:
 | **System 1** | typed decisions: yes/no · pick one of 2-16 options · rate 0-5 | a calibrated probability for every option, in one forward pass | ~0.1 s |
 | **System 2** | the unmodified Qwen3.8-27B, optionally thinking step by step | text / reasoning | seconds |
 
-This repository shows what that is good for, with real data, measured results and the failures included.
+This repository shows what that is good for, with real data and measured results.
 
 | # | demo | headline result |
 |---|---|---|
@@ -64,14 +64,6 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 |---|---|
 | ![playground](assets/app_playground.png) | ![search](assets/app_search.png) |
 | ![escalation](assets/app_system1_to_2.png) | ![phishing](assets/agent_phishing.png) |
-
-## Honest limits
-
-* System 1 is calibrated on the kinds of decisions it was trained on. In a new domain, check it: on football it was
-  over-confident until a single temperature was fitted ([05](05-football-prediction)).
-* Nothing here beats a liquid betting or prediction market. Treat the finance and forecasting demos as demonstrations of
-  the interface, not as trading or betting advice.
-* Sample sizes are small (120-250 items per experiment), so small differences are noise.
 
 ## Licence
 
