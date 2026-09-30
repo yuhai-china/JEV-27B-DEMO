@@ -1,4 +1,4 @@
-"""Demo 05 — System 1 → System 2: answer fast when confident, think only when needed (same engine, same weights).
+"""Demo 04 — System 1 → System 2: answer fast when confident, think only when needed (same engine, same weights).
 
 JEV-27B serves two "systems" from one vLLM engine:
   System 1  the decision head: one forward pass, calibrated probabilities (~0.1 s)

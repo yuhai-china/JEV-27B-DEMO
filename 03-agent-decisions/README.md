@@ -1,9 +1,9 @@
-# 04 · Everyday agent decisions
+# 03 · Everyday agent decisions
 
 **Idea.** Agents and back-office workflows make the same small decisions all day: which team, how urgent, is this a scam,
 may this post stay up, which tool to call. Asking a chat model means generating text, parsing it and hoping the format
 holds. JEV-27B System 1 returns a **probability for every option in one forward pass**. There is nothing to parse, and the
-probability tells you when to hand over to a human or to [System 2](../05-system1-to-system2).
+probability tells you when to hand over to a human or to [System 2](../04-system1-to-system2).
 
 **24 decisions in 0.43 s** (sent together; vLLM batches them on one GPU):
 

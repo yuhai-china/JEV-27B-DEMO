@@ -48,5 +48,4 @@ The state the model sees for one ticker:
  "latest_headlines": [{"title": "…", "publisher": "…", "date": "2026-09-29"}, "…"]}
 ```
 
-For a measured forecasting test against real outcomes, see [03 · Polymarket](../03-polymarket-forecast) and
-[06 · football](../06-football-prediction).
+For a measured forecasting test against real outcomes, see [05 · football](../05-football-prediction).

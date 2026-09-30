@@ -1,4 +1,4 @@
-"""Demo 04 — everyday agent decisions with JEV-27B System 1.
+"""Demo 03 — everyday agent decisions with JEV-27B System 1.
 
 Four things an AI agent or a back-office workflow decides all day, each returned as calibrated probabilities in one
 forward pass (no text generation, no parsing):

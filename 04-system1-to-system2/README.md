@@ -1,4 +1,4 @@
-# 05 · System 1 → System 2: think only when needed
+# 04 · System 1 → System 2: think only when needed
 
 **Idea.** One vLLM engine serves both systems from the same weights:
 

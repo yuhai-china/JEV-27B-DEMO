@@ -22,9 +22,8 @@ def load(folder, name):
 
 search = load("01-search-ranking", "demo")
 stock = load("02-stock-outlook", "demo")
-poly = load("03-polymarket-forecast", "forecast")
-agent = load("04-agent-decisions", "demo")
-s12 = load("05-system1-to-system2", "demo")
+agent = load("03-agent-decisions", "demo")
+s12 = load("04-system1-to-system2", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -72,24 +71,6 @@ def stocks(tickers):
                         "news tone 0-5": round(r["news_tone"], 1), "headlines on-topic": round(r["headlines_on_topic"], 2),
                         "latest headline": (r["latest_headlines"] or [{"title": ""}])[0]["title"]} for r in rows])
     return df, f"**{n} decisions in {secs:.1f} s** · prices as of {rows[0]['as_of']} · illustration only, not investment advice"
-
-
-# ---------------------------------------------------------------- polymarket (live, market-corrector mode)
-def polymarket(n, with_news):
-    import requests
-    today = dt.date.today()
-    ms = requests.get(poly.GAMMA, params={"active": "true", "closed": "false", "limit": 300, "order": "volume24hr", "ascending": "false"}, timeout=60).json()
-    ms = [m for m in ms if poly.yes_no(m) is not None and not poly.SPORTS.search(m["question"])][: int(n)]
-    news = [poly.news_before(m["question"], today + dt.timedelta(days=1)) if with_news else None for m in ms]
-    t = time.time()
-    out = decide_many([("choice", poly.mkt_state(m, today.isoformat(), poly.yes_no(m), nw), poly.INSTR_MKT, poly.CRIT) for m, nw in zip(ms, news)])
-    secs = time.time() - t
-    df = pd.DataFrame([{"market": m["question"], "closes": (m.get("endDate") or "")[:10], "market price": round(poly.yes_no(m), 3),
-                        "JEV (System 1 + market)": round(list(o.values())[0], 3), "adjustment": round(list(o.values())[0] - poly.yes_no(m), 3)}
-                       for m, o in zip(ms, out)])
-    return df, (f"**{len(ms)} live markets in {secs:.1f} s.** Experimental: JEV reads the market price (and optionally headlines) and "
-                f"states its own probability. It is not shown to beat the market, and it treats related markets independently, so "
-                f"mutually exclusive outcomes may not sum to 1. See 03-polymarket-forecast for the measured results. Not financial advice.")
 
 
 # ---------------------------------------------------------------- agent decisions
@@ -154,14 +135,6 @@ with gr.Blocks(title="JEV-27B demo") as demo:
         m2 = gr.Markdown()
         t2 = gr.Dataframe(wrap=True)
         b.click(stocks, tk, [t2, m2])
-    with gr.Tab("Polymarket corrector"):
-        with gr.Row():
-            n = gr.Slider(5, 40, value=15, step=1, label="number of live markets (top by 24 h volume, sports excluded)")
-            nw = gr.Checkbox(value=False, label="also read today's headlines (slower)")
-        b = gr.Button("Fetch live markets and adjust", variant="primary")
-        m3 = gr.Markdown()
-        t3 = gr.Dataframe(wrap=True)
-        b.click(polymarket, [n, nw], [t3, m3])
     with gr.Tab("Agent decisions"):
         with gr.Row():
             with gr.Column():

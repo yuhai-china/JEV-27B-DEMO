@@ -14,10 +14,9 @@ This repository shows what that is good for, with real data, measured results an
 |---|---|---|
 | [01](01-search-ranking) | **Search re-ranking** | nDCG@10 on TREC-COVID **0.858** vs 0.793 for bge-reranker-v2-m3 and 0.623 for BM25 |
 | [02](02-stock-outlook) | **Stock signals** from prices + headlines | 32 typed signals in 1 s; flags which headlines are actually about the company *(illustration, not advice)* |
-| [03](03-polymarket-forecast) | **Polymarket forecasting** | alone: matches the hindsight base rate (Brier 0.214); **does not beat the market** (0.150); first backtest withdrawn for look-ahead bias |
-| [04](04-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
-| [05](05-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
-| [06](06-football-prediction) | **Football vs the bookmakers** | System 2 RPS **0.2065** vs Pinnacle 0.2008; System 1 needs calibration on football |
+| [03](03-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
+| [04](04-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
+| [05](05-football-prediction) | **Football vs the bookmakers** | System 2 RPS **0.2065** vs Pinnacle 0.2008; System 1 needs calibration on football |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -69,7 +68,7 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 ## Honest limits
 
 * System 1 is calibrated on the kinds of decisions it was trained on. In a new domain, check it: on football it was
-  over-confident until a single temperature was fitted ([06](06-football-prediction)).
+  over-confident until a single temperature was fitted ([05](05-football-prediction)).
 * Nothing here beats a liquid betting or prediction market. Treat the finance and forecasting demos as demonstrations of
   the interface, not as trading or betting advice.
 * Sample sizes are small (120-250 items per experiment), so small differences are noise.
@@ -78,4 +77,4 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
 GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), football results from football-data.co.uk,
-market data from Polymarket's public API, prices and headlines from public Yahoo Finance and Google News endpoints.
+prices and headlines from public Yahoo Finance and Google News endpoints.
