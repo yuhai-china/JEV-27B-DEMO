@@ -22,7 +22,7 @@ This repository shows what that is good for, with real data and measured results
 | [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
 | [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
 | [08](08-biomedical-qa) | **Biomedical research questions** (PubMedQA) | **77.8%**, level with human experts (78.0%), zero-shot in one forward pass; above GPT-4's zero-shot 75.2% |
-| [09](09-multimodal-judge) | **Multimodal judge** (VL-RewardBench) | **78.3%**, #1 on the leaderboard: above Skywork-VL-Reward-7B (73.3), Gemini 2.0 Flash (68.8), GPT-4o (65.8) |
+| [09](09-multimodal-judge) | **Multimodal judge** | **78.3%** on VL-RewardBench, above every model on its 2025 leaderboard; on the 2026 MMRB2, text-to-image 69.2 (GPT-5 70.5), average at GPT-4.1 level |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -40,6 +40,8 @@ This repository shows what that is good for, with real data and measured results
 ![pubmedqa](assets/pubmedqa.png)
 
 ![multimodal judge](assets/multimodal_judge.png)
+
+![MMRB2](assets/multimodal_judge_mmrb2.png)
 
 ## Quick start
 

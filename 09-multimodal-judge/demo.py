@@ -91,6 +91,7 @@ def summary():
     for n, g, h, rs, o, m in board:
         b = "**" if n.startswith("JEV") else ""
         md.append(f"| {b}{n}{b} | {g:.1f} | {h:.1f} | {rs:.1f} | {b}{o:.1f}{b} | {b}{m:.1f}{b} |")
+    md = ["## VL-RewardBench\n"] + md + mmrb2_summary()
     open(os.path.join(HERE, "sample_output.md"), "w").write("\n".join(md) + "\n")
     print("\n".join(md))
 
@@ -104,6 +105,47 @@ def summary():
     ax.set_xlim(30, 85); ax.set_xlabel("overall accuracy on VL-RewardBench (%)"); ax.tick_params(axis="y", labelsize=9)
     ax.set_title("Multimodal judge: JEV-27B-VL System 1 vs the VL-RewardBench leaderboard")
     fig.tight_layout(); fig.savefig(os.path.join(HERE, "..", "assets", "multimodal_judge.png")); plt.close(fig)
+
+
+# MMRB2 (Multimodal RewardBench 2, arXiv 2512.16899 v3, Table 2): text-to-image, image editing, interleaved, reasoning
+MMRB2_BOARD = [("Gemini 3 Pro", 74.4, 74.9, 76.4, 79.5), ("GPT-5", 70.5, 73.8, 74.4, 70.2), ("Gemini 2.5 Pro", 70.5, 71.3, 75.1, 66.6),
+               ("GPT-4.1", 65.8, 68.2, 67.0, 53.0), ("Gemini 2.5 Flash", 63.1, 66.5, 69.4, 57.5), ("Qwen3-VL-32B", 64.1, 67.3, 70.5, 56.6),
+               ("Qwen3-VL-235B-A22B", 62.0, 64.8, 69.0, 55.9), ("GPT-4o", 60.3, 65.0, 61.5, 51.9), ("Gemma 3 27B", 58.3, 60.2, 61.1, 49.4)]
+MMRB2_TASKS = [("t2i", "text-to-image"), ("edit", "image editing"), ("interleaved", "interleaved"), ("reasoning", "reasoning")]
+
+
+def mmrb2_summary():
+    jev = {}
+    for k, _ in MMRB2_TASKS:
+        f = os.path.join(HERE, f"mmrb2_{k}.json")
+        if os.path.exists(f):
+            r = pd.read_json(f)
+            jev[k] = 100 * ((r.p_a > 0.5) == (r.chosen.str.lower() == "a")).mean()
+    cols = [k for k, _ in MMRB2_TASKS if k in jev]
+    idx = [i for i, (k, _) in enumerate(MMRB2_TASKS) if k in jev]
+    avg = lambda vals: sum(vals) / len(vals)
+    rows = [(n, [v[i] for i in idx]) for n, *v in MMRB2_BOARD] + [("JEV-27B-VL System 1", [jev[k] for k in cols])]
+    rows.sort(key=lambda x: -avg(x[1]))
+    head = " | ".join(dict(MMRB2_TASKS)[k] for k in cols)
+    md = [f"\n## Multimodal RewardBench 2 (Meta, Dec 2025): {len(cols)} of 4 tasks, 1,000 pairs each\n",
+          f"| judge | {head} | average |", "|---|" + "---:|" * (len(cols) + 1)]
+    for n, v in rows:
+        b = "**" if n.startswith("JEV") else ""
+        md.append(f"| {b}{n}{b} | " + " | ".join(f"{b}{x:.1f}{b}" for x in v) + f" | {b}{avg(v):.1f}{b} |")
+    plt = style()
+    fig, ax = plt.subplots(figsize=(11, 4.4))
+    show = ["Gemini 3 Pro", "GPT-5", "Gemini 2.5 Pro", "JEV-27B-VL System 1", "GPT-4.1", "Qwen3-VL-32B", "GPT-4o"]
+    data = {n: v for n, v in rows}
+    w = 0.8 / len(show)
+    palette = {"JEV-27B-VL System 1": JEV, "Qwen3-VL-32B": ALT}
+    for k, n in enumerate(show):
+        xs = [i + (k - len(show) / 2 + 0.5) * w for i in range(len(cols))]
+        ax.bar(xs, data[n], w, label=n, color=palette.get(n, ["#343A40", "#495057", "#868E96", None, "#ADB5BD", None, "#DEE2E6"][k]))
+    ax.set_xticks(range(len(cols))); ax.set_xticklabels([dict(MMRB2_TASKS)[k] for k in cols]); ax.set_ylim(45, 85)
+    ax.set_ylabel("agreement with human experts (%)"); ax.legend(fontsize=8, ncol=4, loc="upper left")
+    ax.set_title("Multimodal RewardBench 2: JEV-27B-VL vs frontier models (zero-shot, one forward pass per order)")
+    fig.tight_layout(); fig.savefig(os.path.join(HERE, "..", "assets", "multimodal_judge_mmrb2.png")); plt.close(fig)
+    return md
 
 
 if __name__ == "__main__":

@@ -11,9 +11,9 @@ recommender built from tens of thousands of users' behaviour.
 
 **TL;DR**
 
-* **The best multimodal judge on VL-RewardBench:** shown an image, a question and two answers, it picks the better
-  answer **78.3%** of the time, the highest on the official leaderboard, ahead of the purpose-trained Skywork-VL-Reward-7B
-  (73.3%), Gemini 2.0 Flash (68.8%) and GPT-4o (65.8%). Best of all at catching visual hallucinations (83.2%).
+* **A strong multimodal judge:** shown an image, a question and two answers, it picks the better answer **78.3%** of the
+  time on VL-RewardBench, above every model on its leaderboard, including the purpose-trained Skywork-VL-Reward-7B (73.3%)
+  and GPT-4o (65.8%). On the newer Multimodal RewardBench 2 it judges text-to-image results within 1.3 points of GPT-5.
 * **Zero-shot image recommendation:** looking only at video covers, JEV-27B-VL ranks what a user will watch next as well as
   collaborative filtering learned from **59,045 users' watch histories** (AUC 0.727 vs 0.728), with a higher top-5 hit rate
   (59% vs 49%), and without any interaction data.
@@ -33,7 +33,7 @@ recommender built from tens of thousands of users' behaviour.
 Nothing to parse and no prompt gymnastics: you ask *"Is this scenario one where the user clicks this video?"* and get
 `{"true": 0.83, "false": 0.17}`.
 
-## It judges images better than anything on the leaderboard
+## It judges images
 
 Training and evaluating vision-language models needs a judge: of two answers about an image, which one is right, and which one
 describes things that are not there? [VL-RewardBench](https://vl-rewardbench.github.io) (CVPR 2025) tests exactly that with
@@ -53,8 +53,15 @@ JEV-27B-VL answers each pair in one forward pass per ordering, with no training 
 | GPT-4o | 49.1 | 67.6 | 70.5 | 65.8 |
 | Claude 3.5 Sonnet | 43.4 | 55.0 | 62.3 | 55.3 |
 
-That is the highest overall accuracy on the official leaderboard (26 models, last updated May 2025): 5 points above the best
+That is above every model on the official leaderboard (26 models, last updated May 2025): 5 points above the best
 purpose-trained reward model and 12.5 points above GPT-4o. All 2,494 judgements took 163 seconds on one GPU.
+
+The newer [Multimodal RewardBench 2](https://arxiv.org/abs/2512.16899) (Meta, December 2025) includes the current generation
+of judges. There JEV-27B-VL judges text-to-image results at **69.2%**, within 1.3 points of GPT-5 and Gemini 2.5 Pro (70.5%)
+and above GPT-4.1, GPT-4o and every open model, and beats all open models on multimodal reasoning. Across all four tasks it
+averages 63.8%, at the level of GPT-4.1; GPT-5 and Gemini 3 Pro remain ahead.
+
+![MMRB2](https://huggingface.co/autotrust/JEV-27B-VL/resolve/main/multimodal_judge_mmrb2.png)
 
 ## It sees: zero-shot image recommendation
 
