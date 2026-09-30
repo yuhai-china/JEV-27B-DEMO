@@ -14,7 +14,7 @@ This repository shows what that is good for, with real data, measured results an
 |---|---|---|
 | [01](01-search-ranking) | **Search re-ranking** | nDCG@10 on TREC-COVID **0.858** vs 0.793 for bge-reranker-v2-m3 and 0.623 for BM25 |
 | [02](02-stock-outlook) | **Stock signals** from prices + headlines | 32 typed signals in 1 s; flags which headlines are actually about the company *(illustration, not advice)* |
-| [03](03-polymarket-forecast) | **Polymarket forecasting** | clean fixed-date backtest in progress; our first backtest was withdrawn for look-ahead bias (explained) |
+| [03](03-polymarket-forecast) | **Polymarket forecasting** | alone: matches the hindsight base rate (Brier 0.214); **does not beat the market** (0.150); first backtest withdrawn for look-ahead bias |
 | [04](04-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
 | [05](05-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
 | [06](06-football-prediction) | **Football vs the bookmakers** | System 2 RPS **0.2065** vs Pinnacle 0.2008; System 1 needs calibration on football |
