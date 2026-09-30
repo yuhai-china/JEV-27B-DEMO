@@ -21,6 +21,7 @@ This repository shows what that is good for, with real data and measured results
 | [05](05-hallucination-guard) | **Hallucination guard** | answer only the half System 1 trusts: accuracy **71% → 96%** (System 2's own confidence: 87%) |
 | [06](06-news-recommendation) | **News recommendation, zero-shot** | never trained on MIND or click data, AUC **0.642**: beats every zero-shot baseline and LightGBM rankers trained on MIND |
 | [07](07-image-recommendation) | **Image recommendation, zero-shot** | looks only at video covers, AUC **0.727**: equals collaborative filtering learned from 59,045 users' logs |
+| [08](08-biomedical-qa) | **Biomedical research questions** (PubMedQA) | **77.8%**, level with human experts (78.0%), zero-shot in one forward pass; above GPT-4's zero-shot 75.2% |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -34,6 +35,8 @@ This repository shows what that is good for, with real data and measured results
 ![news](assets/news_recommendation.png)
 
 ![images](assets/image_recommendation.png)
+
+![pubmedqa](assets/pubmedqa.png)
 
 ## Quick start
 
@@ -91,8 +94,9 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 | ![escalation](assets/app_system1_to_2.png) | ![phishing](assets/agent_phishing.png) |
 | ![judge](assets/app_judge.png) | ![guard](assets/app_guard.png) |
 | ![news](assets/app_news.png) | ![images](assets/app_images.png) |
+| ![biomedical](assets/app_biomed.png) | |
 
 ## Licence
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
-GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.
+GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), RewardBench (ODC-BY), TriviaQA (Apache-2.0), PubMedQA (MIT), MIND (Microsoft Research License Terms) and MicroLens (Westlake University, research use), both downloaded at run time and not redistributed.

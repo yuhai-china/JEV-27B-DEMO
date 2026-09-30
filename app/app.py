@@ -27,6 +27,7 @@ judge_mod = load("04-response-judge", "demo")
 guard = load("05-hallucination-guard", "demo")
 newsrec = load("06-news-recommendation", "demo")
 imgrec = load("07-image-recommendation", "demo")
+bioqa = load("08-biomedical-qa", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -175,6 +176,35 @@ def recommend_images(choice):
             f"The video this user actually watched next landed at rank **{rank}** of 20.")
 
 
+
+# ---------------------------------------------------------------- biomedical QA (PubMedQA)
+_pqa = {}
+
+
+def pqa():
+    if not _pqa:
+        df = bioqa.load()
+        res = {x["pubid"]: x for x in json.load(open(os.path.join(ROOT, "08-biomedical-qa", "results.json")))["rows"]}
+        pick = []
+        for want in ("no", "yes", "maybe", "no", "yes", "yes", "no", "maybe"):   # confident, correct examples of each answer
+            for r in df.itertuples():
+                x = res.get(int(r.pubid))
+                if x and x["expert"] == want == x["jev"] and max(x["probs"].values()) > 0.8 and int(r.pubid) not in [p for p, _ in pick]:
+                    pick.append((int(r.pubid), r.question)); break
+        _pqa.update(df=df.set_index("pubid"), choices={q: pid for pid, q in pick})
+    return _pqa
+
+
+def biomedical(question):
+    m = pqa()
+    row = m["df"].loc[m["choices"][question]]
+    st = bioqa.state({"question": row["question"], "context": row["context"]})
+    t = time.time()
+    p = bioqa.decide("choice", st, bioqa.Q, bioqa.OPTS)
+    ms = 1000 * (time.time() - t)
+    return st["abstract"], p, f"JEV answered in **{ms:.0f} ms** (zero-shot, one forward pass) · expert answer: **{row['final_decision']}**"
+
+
 with gr.Blocks(title="JEV-27B demo") as demo:
     gr.Markdown(INTRO)
     with gr.Tab("Playground"):
@@ -281,6 +311,18 @@ with gr.Blocks(title="JEV-27B demo") as demo:
         ir = gr.Gallery(label="candidates ranked by JEV", columns=5, height=620, object_fit="contain")
         b.click(recommend_images, ic, [ih, ir, iinfo])
         demo.load(lambda: gr.update(choices=image_users(), value=image_users()[0]), None, ic)
+    with gr.Tab("Biomedical QA"):
+        gr.Markdown("PubMedQA: a research question about a PubMed abstract, answered yes / no / maybe. JEV-27B scores **77.8%** on the official "
+                    "test set, level with human experts (78.0%). **Zero-shot, one forward pass.**")
+        bq = gr.Dropdown(label="research question", choices=[], allow_custom_value=False)
+        b = gr.Button("Answer", variant="primary")
+        with gr.Row():
+            babs = gr.Textbox(label="abstract (without its conclusion)", lines=14)
+            with gr.Column():
+                bp = gr.Label(label="JEV-27B System 1")
+                binfo = gr.Markdown()
+        b.click(biomedical, bq, [babs, bp, binfo])
+        demo.load(lambda: gr.update(choices=list(pqa()["choices"]), value=list(pqa()["choices"])[0]), None, bq)
 
 if __name__ == "__main__":
     demo.queue(default_concurrency_limit=16).launch(server_name="0.0.0.0", server_port=int(os.environ.get("PORT", 7860)),
