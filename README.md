@@ -13,10 +13,9 @@ This repository shows what that is good for, with real data and measured results
 | # | demo | headline result |
 |---|---|---|
 | [01](01-search-ranking) | **Search re-ranking** | nDCG@10 on TREC-COVID **0.858** vs 0.793 for bge-reranker-v2-m3 and 0.623 for BM25 |
-| [02](02-stock-outlook) | **Stock signals** from prices + headlines | 32 typed signals in 1 s; flags which headlines are actually about the company *(illustration, not advice)* |
-| [03](03-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
-| [04](04-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
-| [05](05-football-prediction) | **Football vs the bookmakers** | System 2 RPS **0.2065** vs Pinnacle 0.2008; System 1 needs calibration on football |
+| [02](02-agent-decisions) | **Agent decisions**: triage, phishing, moderation, tool routing | 24 decisions in 0.43 s, no output parsing |
+| [03](03-system1-to-system2) | **System 1 → System 2** escalation | 70% of questions answered in 0.1 s; accuracy 0.792 → **0.892** (thinking on everything: 0.917) |
+| [04](04-football-prediction) | **Football vs the bookmakers** | System 2 (thinking) gets within 0.006 RPS of Pinnacle: **0.2065** vs 0.2008 |
 | [app](app) | **Web app** (Gradio) | all of the above, interactive |
 
 ![search](assets/search_benchmarks.png)
@@ -69,4 +68,4 @@ bias and per-kind temperature, so no text is ever generated or parsed.
 
 Code: Apache-2.0. Model: see [autotrust/JEV-27B](https://huggingface.co/autotrust/JEV-27B). Data: TREC-COVID / NFCorpus via BEIR,
 GSM8K (MIT), AQuA-RAT (Apache-2.0), ARC (CC BY-SA 4.0), CommonsenseQA (MIT), football results from football-data.co.uk,
-prices and headlines from public Yahoo Finance and Google News endpoints.
+pre-match headlines from Google News.

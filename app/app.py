@@ -21,9 +21,8 @@ def load(folder, name):
 
 
 search = load("01-search-ranking", "demo")
-stock = load("02-stock-outlook", "demo")
-agent = load("03-agent-decisions", "demo")
-s12 = load("04-system1-to-system2", "demo")
+agent = load("02-agent-decisions", "demo")
+s12 = load("03-system1-to-system2", "demo")
 
 INTRO = """# JEV-27B — one engine, two systems
 **System 1** answers typed decisions (yes/no · pick one of 2-16 options · rate 0-5) in a single forward pass with calibrated
@@ -59,18 +58,6 @@ def rerank(qtext):
     df = pd.DataFrame([{"JEV #": i + 1, "BM25 #": bm.index(c) + 1, "P(rel.)": round(c["p_relevant"], 3),
                         "rating": round(c["rating"], 2), "label": c["label"], "document": c["text"][:220]} for i, c in enumerate(jv)])
     return df, f"**{2 * len(cands)} decisions in {secs:.1f} s** · nDCG@10 BM25 **{nb:.3f}** → JEV-27B **{nj:.3f}**"
-
-
-# ---------------------------------------------------------------- stocks
-def stocks(tickers):
-    ts = [t.strip().upper() for t in tickers.replace(",", " ").split() if t.strip()][:12]
-    snaps = [stock.snapshot(t) for t in ts]
-    rows, n, secs = stock.analyse(snaps)
-    df = pd.DataFrame([{"ticker": r["ticker"], "close": r["last_close"], "5d %": r["return_pct"]["5d"], "20d %": r["return_pct"]["20d"],
-                        "P(up in 5 days)": round(r["p_up_5d"], 2), "stance": f"{r['stance']} ({r['stance_p']:.2f})",
-                        "news tone 0-5": round(r["news_tone"], 1), "headlines on-topic": round(r["headlines_on_topic"], 2),
-                        "latest headline": (r["latest_headlines"] or [{"title": ""}])[0]["title"]} for r in rows])
-    return df, f"**{n} decisions in {secs:.1f} s** · prices as of {rows[0]['as_of']} · illustration only, not investment advice"
 
 
 # ---------------------------------------------------------------- agent decisions
@@ -129,12 +116,6 @@ with gr.Blocks(title="JEV-27B demo") as demo:
                     "label = human judgement (0 not relevant, 1 partially, 2 relevant)*")
         t1 = gr.Dataframe(wrap=True, column_widths=["6%", "7%", "8%", "7%", "6%", "66%"])
         b.click(rerank, q, [t1, m1])
-    with gr.Tab("Stock signals"):
-        tk = gr.Textbox(value="NVDA AAPL MSFT AMZN META GOOGL TSLA AMD", label="tickers (Yahoo Finance symbols)")
-        b = gr.Button("Analyse", variant="primary")
-        m2 = gr.Markdown()
-        t2 = gr.Dataframe(wrap=True)
-        b.click(stocks, tk, [t2, m2])
     with gr.Tab("Agent decisions"):
         with gr.Row():
             with gr.Column():

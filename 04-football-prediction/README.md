@@ -1,4 +1,4 @@
-# 05 · Football match prediction vs the bookmakers
+# 04 · Football match prediction vs the bookmakers
 
 **Question.** Given only pre-match information, can JEV-27B forecast *home / draw / away* as well as the betting market?
 
