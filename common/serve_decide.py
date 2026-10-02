@@ -12,8 +12,8 @@ POST /v1/decide
   options    list of strings (choice only)
   strategy   choices with more than 16 options: "single" (one pass, labels A-P then Q-Z, AA, ...), "tournament"
              (groups of <=16 + a final of 16), "permute" (single pass over 4 option orders, averaged); default per model
-  thinking   "off", "auto" (think only when the leading option is below `threshold`), "on" (always think);
-             default per model (GEV: "auto"; JEV-27B: "off")
+  thinking   "off" (default: System 1 only), "auto" (think only when the leading option is below `threshold`),
+             "on" (always think)
   threshold  System 1 confidence below which "auto" switches thinking on (default per model)
   reasoning controls, as for the base model's own chat API:
     chat_template_kwargs  passed to the base model's chat template (e.g. Qwen3.8: {"reasoning_effort": "low"})
@@ -65,7 +65,7 @@ PROFILES = {
     "qwen": {"prefix": "", "image": "<|vision_start|><|image_pad|><|vision_end|>", "end_think": "</think>",
              "after_think": "\n\n", "strategy": "single", "threshold": 0.8, "mix": 0.5, "thinking": "off"},
     "gemma": {"prefix": "<bos>", "image": "<|image|>", "end_think": "<channel|>", "after_think": "",
-              "strategy": "tournament", "threshold": 0.8, "mix": 0.5, "thinking": "auto"},
+              "strategy": "tournament", "threshold": 0.8, "mix": 0.5, "thinking": "off"},
 }
 # Read the full distribution: override generation_config defaults (top_k/top_p) that would truncate processed logprobs.
 READ = dict(max_tokens=1, temperature=1.0, top_p=1.0, top_k=0, min_p=0.0, repetition_penalty=1.0,
