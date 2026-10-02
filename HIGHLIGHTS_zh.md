@@ -382,9 +382,9 @@ JEV 排第一，比论文里最好的裁判高 3.2 个百分点（95% 置信区�
 
 | | 自建 vLLM 服务（默认） | 托管 API 服务 |
 |---|---|---|
-| 启动 / 地址 | `bash common/serve_jev27b.sh`，默认 `http://localhost:8000` | `https://jev-h200.scienceguru.ai/v1` |
+| 启动 / 地址 | `bash common/serve_jev27b_mm.sh`，默认 `http://localhost:8000` | `https://jev-h200.scienceguru.ai/v1` |
 | 需要的环境变量 | 不需要（地址不同时设 `JEV_URL`） | `JEV_URL` 和 `JEV_API_KEY` |
-| System 1（决策） | `/v1/completions` + `jev-decision` LoRA，客户端自己算概率 | `POST /v1/decide`，服务端直接返回概率 |
+| System 1（决策） | `POST /v1/decide`，服务端直接返回概率（2–256 个选项，可带图片）；也可以走 `/v1/completions` + `jev-decision`，由客户端计算概率 | `POST /v1/decide`，服务端直接返回概率 |
 | System 2（对话） | `/v1/chat/completions` | `/v1/chat/completions`，推理过程在 `message.reasoning` 里 |
 | 认证 | 无 | 请求头 `Authorization: Bearer <API Key>` |
 
@@ -406,6 +406,19 @@ export JEV_URL="http://localhost:8000"   # 或者直接 unset JEV_URL
 ```
 
 规则：设置了 `JEV_API_KEY` 就自动走托管服务的 `/v1/decide`，没有设置就走自建 vLLM。需要手动指定时，可以设 `JEV_BACKEND=decide` 或 `JEV_BACKEND=vllm`。
+
+**自建服务同样提供 `/v1/decide`：** `serve_jev27b_mm.sh` 通过 `common/serve_decide.py` 启动 vLLM，也就是在标准的 vLLM OpenAI 服务上加了一个 `/v1/decide` 路由。拼提示词、加决策头偏置、做温度校准都在服务端完成，请求和返回格式与托管 API 相同，任何语言都可以直接用 HTTP 调用，不需要客户端代码。
+
+```bash
+curl localhost:8000/v1/decide -H 'Content-Type: application/json' -d '{
+  "kind": "choice", "state": "客户：一杯咖啡被扣了两次款。",
+  "question": "应该由哪个团队处理？", "options": ["账务", "物流", "技术支持"]}'
+```
+
+- 选择题最多 256 个选项。16 个以内用训练时的 A–P 标签；更多时继续用 Q–Z、AA、AB……，不需要重新训练。
+- `state` 可以是图文混排的列表：`["图片：", {"image": "https://... 或 data:image/png;base64,..."}]`。
+- 设 `JEV_BACKEND=decide` 后，`jev_client` 也会改走这个接口（包括带图片的 `decide_mm`）。
+- 实测：CLINC150 全部 150 个意图作为选项，只给意图名称时准确率 89.5%，每个选项加一句话描述后 93.8%。
 
 > API Key 只放在环境变量里，不要写进代码、文档或提交到仓库。
 

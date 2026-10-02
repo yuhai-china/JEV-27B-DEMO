@@ -57,6 +57,12 @@ def _decide_hosted(kind, state, question, options):
     return dict(zip(d["options"], d["probabilities"]))
 
 
+# Read the full distribution over the option tokens: override the model's generation_config defaults
+# (Qwen ships top_k=20, top_p=0.95), which would otherwise truncate the processed logprobs and zero out tail options.
+_FULL = {"max_tokens": 1, "temperature": 1.0, "top_p": 1.0, "top_k": 0, "min_p": 0.0, "repetition_penalty": 1.0,
+         "add_special_tokens": False, "return_tokens_as_token_ids": True}
+
+
 def _decide_vllm(kind, state, question, options):
     dh, temps = _bundle()
     lines = options if kind != "choice" else [f"{LETTERS[i]}) {o}" for i, o in enumerate(options)]
@@ -64,9 +70,7 @@ def _decide_vllm(kind, state, question, options):
     s = dh["slots"]["ranges"][kind][0]
     ids = dh["verbalizer_ids"][s: s + len(options)]
     r = _http.post(f"{URL}/v1/completions", json={
-        "model": "jev-decision", "prompt": prompt, "max_tokens": 1, "temperature": 1.0,
-        "logprobs": len(options), "allowed_token_ids": ids,
-        "add_special_tokens": False, "return_tokens_as_token_ids": True}, timeout=120)
+        "model": "jev-decision", "prompt": prompt, "logprobs": len(options), "allowed_token_ids": ids, **_FULL}, timeout=120)
     r.raise_for_status()
     lp = {int(k.split(":")[1]): v for k, v in r.json()["choices"][0]["logprobs"]["top_logprobs"][0].items()}
     z = [(lp.get(t, -1e9) + dh["bias"][s + i]) / temps[kind] for i, t in enumerate(ids)]
@@ -100,10 +104,15 @@ def _image_part(img) -> dict:
 def decide_mm(kind: str, state_parts: list, question: str, options: list[str] | None = None) -> dict[str, float]:
     """System 1 with images (needs the multimodal server, see common/serve_jev27b_mm.sh).
     state_parts: list of str and {"image": url_or_path} items, rendered in order inside [state]."""
-    if BACKEND == "decide":
-        raise NotImplementedError("image decisions need the self-hosted multimodal vLLM server")
-    dh, temps = _bundle()
     options = {"noul": ["false", "true"], "score": SCORE}.get(kind, options)
+    if BACKEND == "decide":  # self-hosted serve_decide.py accepts images in state (the hosted API does not)
+        parts = [{"image": _image_part(p["image"])["image_url"]["url"]} if isinstance(p, dict) and "image" in p else as_text(p)
+                 for p in state_parts]
+        body = {"kind": kind, "state": parts, "question": question, **({"options": options} if kind == "choice" else {})}
+        r = _http.post(f"{URL}/v1/decide", json=body, timeout=300)
+        r.raise_for_status()
+        return dict(zip(r.json()["options"], r.json()["probabilities"]))
+    dh, temps = _bundle()
     lines = options if kind != "choice" else [f"{LETTERS[i]}) {o}" for i, o in enumerate(options)]
     content = [{"type": "text", "text": f"[kind] {kind}\n[state] "}]
     for p in state_parts:
@@ -113,8 +122,7 @@ def decide_mm(kind: str, state_parts: list, question: str, options: list[str] | 
     ids = dh["verbalizer_ids"][s: s + len(options)]
     r = _http.post(f"{URL}/v1/chat/completions", json={
         "model": "jev-decision", "messages": [{"role": "user", "content": content}], "chat_template": _RAW_MM_TEMPLATE,
-        "add_generation_prompt": False, "add_special_tokens": False, "max_tokens": 1, "temperature": 1.0,
-        "logprobs": True, "top_logprobs": len(options), "allowed_token_ids": ids, "return_tokens_as_token_ids": True}, timeout=300)
+        "add_generation_prompt": False, "logprobs": True, "top_logprobs": len(options), "allowed_token_ids": ids, **_FULL}, timeout=300)
     r.raise_for_status()
     top = r.json()["choices"][0]["logprobs"]["content"][0]["top_logprobs"]
     lp = {int(t["token"].split(":")[1]): t["logprob"] for t in top}

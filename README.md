@@ -66,6 +66,23 @@ Set `JEV_URL` if the server is not on `localhost:8000`.
 **Image input** (demo 07): [**autotrust/JEV-27B-VL**](https://huggingface.co/autotrust/JEV-27B-VL) is JEV-27B with vision.
 `bash common/serve_jev27b_mm.sh` serves it, so both systems also accept images. It runs every other demo too.
 
+**System 1 as a plain HTTP endpoint:** `serve_jev27b_mm.sh` starts vLLM through `common/serve_decide.py`, the standard
+vLLM OpenAI server plus `POST /v1/decide`. Send the question, get calibrated probabilities back; the server builds the
+prompt and applies the decision head. Same request and response format as the hosted API, with 2–256 options per choice
+question and images allowed in `state`.
+
+```bash
+curl localhost:8000/v1/decide -H 'Content-Type: application/json' -d '{
+  "kind": "choice", "state": "Customer: my card was charged twice for one coffee.",
+  "question": "Which team should handle this?", "options": ["billing", "shipping", "tech support"]}'
+# {"options": [...], "probabilities": [0.9979, 0.00001, 0.0021], "choice": "billing", "choice_index": 0, ...}
+```
+
+`kind` is `noul` (yes/no), `score` (0–5) or `choice`. For images, make `state` a list:
+`["Picture: ", {"image": "https://... or data:image/png;base64,..."}]`. `JEV_BACKEND=decide` makes `jev_client` use this
+endpoint too. Over 16 options, the labels continue past A–P (Q–Z, AA, AB, …). On CLINC150 with all 150 intents as options,
+accuracy is 89.5% with intent names alone and 93.8% when each option gets a one-line description.
+
 **Using a hosted JEV API instead of your own GPU:** set the URL and key, then run any demo or the app unchanged.
 
 ```bash
